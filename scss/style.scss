@@ -3,12 +3,13 @@ $amarelo: #FEE200;
 $cinza: #2A2E32;
 
 
+$font-family-sans-serif: 'JDSansPro', serif;
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
-    $theme-colors: (
-        "primary": $verde,
-        "secondary": $amarelo
-    );
-    
-    $text-color: $cinza;
+
+@import '_fonts';
+
 
 @import '_header';
+
+
+

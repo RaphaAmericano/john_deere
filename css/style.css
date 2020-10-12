@@ -31,7 +31,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-sans-serif: "JDSansPro", serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
 *,
@@ -50,7 +50,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "JDSansPro", serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -4268,7 +4268,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "JDSansPro", serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -4353,7 +4353,7 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "JDSansPro", serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -7153,22 +7153,133 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
-.navbar-light .navbar-toggler {
-  border-color: transparent; }
-
-.navbar-light .navbar-toggler-icon {
-  background-image: url("../img/hamburguer.png");
-  background-size: contain; }
-
-.navbar-light .navbar-nav .nav-link {
-  color: #2A2E32; }
-
-.navbar-collapse .navbar-opcoes .nav-item {
-  padding: 27px 0 37.8px 0;
-  text-align: center;
+@font-face {
+  font-family: 'JDSansPro';
+  src: url("../font/JDSansPro-Bold.ttf") format("truetype");
   font-weight: bold;
-  font-size: 35px; }
-  .navbar-collapse .navbar-opcoes .nav-item:nth-child(even) {
-    background-color: #E6E6E6; }
-  .navbar-collapse .navbar-opcoes .nav-item:nth-child(odd) {
-    background-color: #F2F2F2; }
+  font-style: normal; }
+
+@font-face {
+  font-family: 'JDSansPro';
+  src: url("../font/JDSansPro-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'JDSansPro';
+  src: url("../font/JDSansPro-Book.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'JDSansPro';
+  src: url("../font/JDSansPro-BookItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'JDSansPro-Cond';
+  src: url("../font/JDSansPro-CondBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'JDSansPro-Cond';
+  src: url("../font/JDSansPro-CondBoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'JDSansPro-Cond';
+  src: url("../font/JDSansPro-CondBook.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'JDSansPro-Cond';
+  src: url("../font/JDSansPro-CondBookItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'JDSansPro-Cond';
+  src: url("../font/JDSansPro-CondSemibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'JDSansPro-Cond';
+  src: url("../font/JDSansPro-CondSemiboldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'JDSansPro-';
+  src: url("../font/JDSansPro-Light.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'JDSansPro';
+  src: url("../font/JDSansPro-LightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'JDSansPro';
+  src: url("../font/JDSansPro-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'JDSansPro';
+  src: url("../font/JDSansPro-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'JDSansPro';
+  src: url("../font/JDSansPro-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'JDSansPro';
+  src: url("../font/JDSansPro-SemiboldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic; }
+
+.navbar-light {
+  margin-top: 35px; }
+  .navbar-light .navbar-brand {
+    margin-left: 18.8px; }
+  .navbar-light .navbar-toggler {
+    border-color: transparent;
+    margin-right: 25.5px; }
+  .navbar-light .navbar-toggler-icon {
+    background-image: url("../img/hamburguer.png");
+    background-size: contain; }
+  .navbar-light .navbar-nav .nav-link {
+    color: #2A2E32; }
+
+.navbar-collapse {
+  margin-top: 60.9px; }
+  .navbar-collapse .navbar-opcoes .nav-item {
+    padding: 27px 0 37.8px 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px; }
+    .navbar-collapse .navbar-opcoes .nav-item:nth-child(even) {
+      background-color: #E6E6E6; }
+    .navbar-collapse .navbar-opcoes .nav-item:nth-child(odd) {
+      background-color: #F2F2F2; }
+  .navbar-collapse .navbar-idiomas {
+    margin-top: 61.2px; }
+    .navbar-collapse .navbar-idiomas .nav-item {
+      margin-bottom: 36.6px; }
+      .navbar-collapse .navbar-idiomas .nav-item img {
+        margin-right: 11px;
+        width: 34px;
+        height: 35px; }
+      .navbar-collapse .navbar-idiomas .nav-item .nav-link {
+        font-size: 22px; }

@@ -1,19 +1,16 @@
 .navbar-light {
+    margin-top: 35px;
+    .navbar-brand{
+        margin-left: 18.8px;
+    }
     .navbar-toggler {
         border-color: transparent;
+        margin-right: 25.5px;
     }
     .navbar-toggler-icon {
         background-image: url('../img/hamburguer.png');
         background-size: contain;
     }
-}
-
-.navbar-light {
-    
-    // .navbar-menu {
-    //     padding:35px 25.5px 60.9px 18.8px;
-    // }
-
     .navbar-nav {
         .nav-link {
             color: $cinza;
@@ -22,6 +19,7 @@
 }
 
 .navbar-collapse {
+    margin-top: 60.9px;
     .navbar-opcoes {
         .nav-item {
             padding: 27px 0 37.8px 0;
@@ -36,5 +34,18 @@
             font-size: 35px;
         }
     }
-
+    .navbar-idiomas {
+        margin-top: 61.2px;
+        .nav-item {
+            margin-bottom: 36.6px;
+            img {
+                margin-right: 11px;
+                width: 34px;
+                height: 35px;
+            }
+            .nav-link {
+                font-size: 22px;
+            }
+        }
+    }
 }
