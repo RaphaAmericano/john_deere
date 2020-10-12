@@ -7,7 +7,7 @@
         img {
             width: 257px;
         }
-        @include media-breakpoint-down(sm){
+        @include media-breakpoint-down(xl){
             margin-left: 18.8px;
             img {
                 width: 182px;
@@ -73,8 +73,12 @@
             }
             img {
                 margin-right: 11px;
-                width: 34px;
-                height: 35px;
+                @include media-breakpoint-down(lg){
+                    width: 34px;
+                    height: 35px;
+                }
+                width: 31px;
+                height: 31px;
             }
             .nav-link {
                 font-size: 22px;
