@@ -1,7 +1,14 @@
-
-
-
-
+$verde: #37691E;
+$amarelo: #FEE200;
+$cinza: #2A2E32;
 
 
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
+    $theme-colors: (
+        "primary": $verde,
+        "secondary": $amarelo
+    );
+    
+    $text-color: $cinza;
+
+@import '_header';
