@@ -4,12 +4,12 @@
         margin-bottom: 35.8px;
     }
     .navbar-brand{
-        margin-left: 75.2px;
+        margin-left: 18.8px;
         img {
             width: 257px;
         }
-        @include media-breakpoint-down(xl){
-            margin-left: 18.8px;
+        @include media-breakpoint-up(xl){
+            margin-left: 75.2px;
             img {
                 width: 182px;
             }
@@ -58,7 +58,7 @@
     }
     .navbar-idiomas {
         margin-top: 61.2px;
-        @include media-breakpoint-up(xs){
+        @include media-breakpoint-up(xl){
             margin-left: auto;
             margin-right: 84px;
         }

@@ -2,10 +2,10 @@
     background-image: url('../img/bg_rostos.png');
     padding: 149px 75px 141px 31px;
     @include media-breakpoint-down(xs){
-        padding: 49px 75px 80px 85px;
+        padding: 49px 75px 76px 64px;
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: -240px 0px;
+        background-position: -120px 0px;
     }
     background-size: cover;
     background-repeat: no-repeat;
@@ -16,13 +16,20 @@
         font-weight: bold;
         @include media-breakpoint-down(sm){
             font-size: 22px;
+            margin-bottom: 12px;
         }
     }
     .contador{
         color: $white;
         background-color: $cinza2;
+        padding: 17px 23px;
+        width: 342px;
+        @include media-breakpoint-down(sm){
+            padding: 9px 11px 5px 12px;
+            width: 180px;
+        }
         strong {
-
+            
         }
         small {
             font-size: 12px;
