@@ -1,0 +1,31 @@
+.hero {
+    background-image: url('../img/bg_rostos.png');
+    padding: 149px 75px 141px 31px;
+    @include media-breakpoint-down(xs){
+        padding: 49px 75px 80px 85px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: -240px 0px;
+    }
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    h2 {
+        color: $white;
+        font-size: 43px;
+        font-weight: bold;
+        @include media-breakpoint-down(sm){
+            font-size: 22px;
+        }
+    }
+    .contador{
+        color: $white;
+        background-color: $cinza2;
+        strong {
+
+        }
+        small {
+            font-size: 12px;
+        }
+    }
+}

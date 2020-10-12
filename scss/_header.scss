@@ -1,6 +1,7 @@
 .navbar-light {
     @include media-breakpoint-down(xs){
         margin-top: 35px;
+        margin-bottom: 35.8px;
     }
     .navbar-brand{
         margin-left: 75.2px;

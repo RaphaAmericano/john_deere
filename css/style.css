@@ -7251,7 +7251,8 @@ a.text-dark:hover, a.text-dark:focus {
 
 @media (max-width: 575.98px) {
   .navbar-light {
-    margin-top: 35px; } }
+    margin-top: 35px;
+    margin-bottom: 35.8px; } }
 
 .navbar-light .navbar-brand {
   margin-left: 75.2px;
@@ -7318,3 +7319,28 @@ a.text-dark:hover, a.text-dark:focus {
     @media (min-width: 576px) {
       .navbar-collapse .navbar-idiomas .nav-item .nav-link {
         font-size: 21px; } }
+
+.hero {
+  background-image: url("../img/bg_rostos.png");
+  padding: 149px 75px 141px 31px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0px 0px; }
+  @media (max-width: 575.98px) {
+    .hero {
+      padding: 49px 75px 80px 85px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: -240px 0px; } }
+  .hero h2 {
+    color: #fff;
+    font-size: 43px;
+    font-weight: bold; }
+    @media (max-width: 767.98px) {
+      .hero h2 {
+        font-size: 22px; } }
+  .hero .contador {
+    color: #fff;
+    background-color: #2A2D32; }
+    .hero .contador small {
+      font-size: 12px; }
