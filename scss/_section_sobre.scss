@@ -1,0 +1,16 @@
+.sobre {
+    margin-top: -50px;  
+    border-radius: 50px 50px 0 0 ;  
+    background-color: $verde;
+    padding: 34px 26px 16px 28px;
+    @include media-breakpoint-up(xl) {
+        padding: 90px 193px 91px 200px;
+    }
+    p{
+        color: $white;
+    }
+    h3 {
+        color: $amarelo;
+        font-weight: bold;
+    }
+}

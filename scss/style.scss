@@ -12,11 +12,12 @@ $font-family-sans-serif: 'JDSansPro', serif;
 
 @import '_header';
 @import '_hero';
+@import '_section_sobre';
 
 .padding-content {
     padding:0 80px;
     @include media-breakpoint-down(xs){
-        padding:0 00px;
+        padding:0 0px;
     }
 }
 

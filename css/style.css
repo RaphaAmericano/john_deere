@@ -7335,7 +7335,7 @@ a.text-dark:hover, a.text-dark:focus {
       padding: 49px 75px 76px 64px;
       background-size: cover;
       background-repeat: no-repeat;
-      background-position: -120px 0px; } }
+      background-position: -145px 0px; } }
   .hero h2 {
     color: #fff;
     font-size: 43px;
@@ -7356,8 +7356,22 @@ a.text-dark:hover, a.text-dark:focus {
     .hero .contador small {
       font-size: 12px; }
 
+.sobre {
+  margin-top: -50px;
+  border-radius: 50px 50px 0 0;
+  background-color: #37691E;
+  padding: 34px 26px 16px 28px; }
+  @media (min-width: 1200px) {
+    .sobre {
+      padding: 90px 193px 91px 200px; } }
+  .sobre p {
+    color: #fff; }
+  .sobre h3 {
+    color: #FEE200;
+    font-weight: bold; }
+
 .padding-content {
   padding: 0 80px; }
   @media (max-width: 575.98px) {
     .padding-content {
-      padding: 0 00px; } }
+      padding: 0 0px; } }
