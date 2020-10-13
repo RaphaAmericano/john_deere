@@ -4,13 +4,9 @@
     background-color: $white;
     border-radius: 25px 25px 0 0;
     margin-top: -57px;
-    @include media-breakpoint-up(xs){
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-    @include media-breakpoint-up(lx){
-        // padding-left: 163px;
-        // padding-right: 163px;
+    @include media-breakpoint-up(sm){
+        padding-left: 273px;
+        padding-right: 273px;
     }
     h5 {
         display: inline;
@@ -51,10 +47,10 @@
     padding-right: 0;
     .conteudo-agenda{
         margin-top: 22px;
-        @include media-breakpoint-up(lx){
+        @include media-breakpoint-up(sm){
             img {
-                // width: 99px;
-                // height: 99px;
+                width: 99px;
+                height: 99px;
             }
         }
         span {
@@ -69,9 +65,15 @@
             background-color: $cinza;
             strong {
                 font-size: 27px;
+                @include media-breakpoint-up(sm){
+                    font-size: 34px;
+                }
             }
             small{
                 font-size: 17px;
+                @include media-breakpoint-up(sm){
+                    font-size: 22px;
+                }
             }
         }
        
@@ -88,11 +90,16 @@
             }
             @include media-breakpoint-up(sm){
                 text-align: left;
+                font-size: 31px;
             }
         }
+        
         strong, small {
             font-size: 21px;
             color: $cinza;
+            @include media-breakpoint-up(sm){
+                font-size: 29px;
+            }
         }
     }
     .botao-agenda {
@@ -104,6 +111,9 @@
             color: $cinza;
             font-size: 21px;
             font-weight: bold;
+            @include media-breakpoint-up(sm){
+                font-size: 24px;
+            }
         }
     }
 }

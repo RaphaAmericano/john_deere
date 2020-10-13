@@ -7372,17 +7372,23 @@ a.text-dark:hover, a.text-dark:focus {
       .sobre p {
         font-size: 30px; } }
   .sobre h3 {
+    font-size: 43px;
     color: #FEE200;
     font-weight: bold; }
+    @media (max-width: 575.98px) {
+      .sobre h3 {
+        font-size: 29px; } }
 
 .agenda {
   padding-top: 27px;
   padding-bottom: 22px;
   background-color: #fff;
   border-radius: 25px 25px 0 0;
-  margin-top: -57px;
-  padding-left: 0px;
-  padding-right: 0px; }
+  margin-top: -57px; }
+  @media (min-width: 576px) {
+    .agenda {
+      padding-left: 273px;
+      padding-right: 273px; } }
   .agenda h5 {
     display: inline;
     font-size: 43px;
@@ -7411,6 +7417,10 @@ a.text-dark:hover, a.text-dark:focus {
   padding-right: 0; }
   .linha-agenda .conteudo-agenda {
     margin-top: 22px; }
+    @media (min-width: 576px) {
+      .linha-agenda .conteudo-agenda img {
+        width: 99px;
+        height: 99px; } }
     .linha-agenda .conteudo-agenda span {
       width: 99px;
       height: 99px;
@@ -7423,8 +7433,14 @@ a.text-dark:hover, a.text-dark:focus {
           height: 67px; } }
       .linha-agenda .conteudo-agenda span strong {
         font-size: 27px; }
+        @media (min-width: 576px) {
+          .linha-agenda .conteudo-agenda span strong {
+            font-size: 34px; } }
       .linha-agenda .conteudo-agenda span small {
         font-size: 17px; }
+        @media (min-width: 576px) {
+          .linha-agenda .conteudo-agenda span small {
+            font-size: 22px; } }
   .linha-agenda .titulo-agenda {
     margin-top: 30px;
     padding: 0 34px; }
@@ -7437,10 +7453,14 @@ a.text-dark:hover, a.text-dark:focus {
           text-align: center; } }
       @media (min-width: 576px) {
         .linha-agenda .titulo-agenda h6 {
-          text-align: left; } }
+          text-align: left;
+          font-size: 31px; } }
     .linha-agenda .titulo-agenda strong, .linha-agenda .titulo-agenda small {
       font-size: 21px;
       color: #2A2E32; }
+      @media (min-width: 576px) {
+        .linha-agenda .titulo-agenda strong, .linha-agenda .titulo-agenda small {
+          font-size: 29px; } }
   .linha-agenda .botao-agenda {
     margin-top: 26px;
     margin-left: auto; }
@@ -7450,6 +7470,9 @@ a.text-dark:hover, a.text-dark:focus {
       color: #2A2E32;
       font-size: 21px;
       font-weight: bold; }
+      @media (min-width: 576px) {
+        .linha-agenda .botao-agenda .btn-agenda {
+          font-size: 24px; } }
 
 main {
   background-color: #e2e2e2; }
