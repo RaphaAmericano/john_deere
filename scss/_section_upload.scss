@@ -68,4 +68,39 @@
             }
         }
     }
+    .conteudo-qa {
+        background-color: #5F5F5F;
+        border-radius: 15px 15px 0 0;
+        .form-inline {
+            label {
+                font-size: 64px;
+                color: $cinza;
+            }
+        }
+        @include media-breakpoint-up(sm){
+            margin-left: 155px;
+            margin-right: 155px;
+        }
+        @include media-breakpoint-down(sm){
+            padding-left: 38px;
+            padding-right: 38px;
+            label {
+                text-align: center;
+                display: block;
+            }
+            input {
+                padding: 66px 64px 63px 65px;
+            }
+            button {
+                color: $cinza;
+                font-size: 21px;
+                text-align: center;
+                width: 207px;
+                margin-left: auto;
+                margin-right: auto;
+                padding-top: 25px;
+                padding-bottom: 21px;
+            }
+        }
+    }
 }
