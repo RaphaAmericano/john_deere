@@ -8,6 +8,11 @@
     }
     p{
         color: $white;
+        font-size: 19px;
+        font-weight: lighter;
+        @include media-breakpoint-up(lg) {
+            font-size: 30px;
+        }
     }
     h3 {
         color: $amarelo;

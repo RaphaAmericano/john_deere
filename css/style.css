@@ -7365,7 +7365,12 @@ a.text-dark:hover, a.text-dark:focus {
     .sobre {
       padding: 90px 193px 91px 200px; } }
   .sobre p {
-    color: #fff; }
+    color: #fff;
+    font-size: 19px;
+    font-weight: lighter; }
+    @media (min-width: 992px) {
+      .sobre p {
+        font-size: 30px; } }
   .sobre h3 {
     color: #FEE200;
     font-weight: bold; }
