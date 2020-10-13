@@ -1,0 +1,71 @@
+.agenda {
+    padding-top: 27px;
+    background-color: $white;
+    border-radius: 50px 50px 0 0;
+    margin-top: -57px;
+    @include media-breakpoint-down(xs){
+        h5, span{
+            text-align: center;
+        }
+        h5 {
+            color: $black;
+            font-size: 29px;
+            font-weight: bold;
+        }
+        span {
+            display: block;
+            a{
+                font-size: 24px;
+                font-weight: bold;
+                &:first-child {
+                    color: $amarelo;
+                }
+                &:last-child {
+                    color: #B8B8B8;
+                }
+            }
+        }
+    }
+}
+.linha-agenda {
+    .conteudo-agenda{
+        margin-top: 22px;
+        span {
+            width: 67px;
+            height: 67px;
+            color: $white;
+            border-radius: 10px;
+            background-color: $cinza;
+            strong {
+                font-size: 27px;
+            }
+            small{
+                font-size: 17px;
+            }
+        }
+       
+    }
+    .titulo-agenda {
+        padding: 0 34px;
+        
+        h6 {
+            font-size: 29px;
+            color: $verde;
+            font-weight: bold;
+        }
+        strong, small {
+            font-size: 21px;
+            color: $cinza;
+        }
+    }
+    .botao-agenda {
+        margin-top: 26px;
+        .btn-agenda {
+            width: 207px;
+            height: 67px;
+            color: $cinza;
+            font-size: 21px;
+            font-size: bold;
+        }
+    }
+}

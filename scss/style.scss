@@ -5,6 +5,8 @@ $cinza2: #2A2D32;
 
 
 $font-family-sans-serif: 'JDSansPro', serif;
+$primary: $verde;
+$secondary: $amarelo;
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 
 @import '_fonts';
@@ -13,6 +15,7 @@ $font-family-sans-serif: 'JDSansPro', serif;
 @import '_header';
 @import '_hero';
 @import '_section_sobre';
+@import '_section_agenda';
 
 .padding-content {
     padding:0 80px;
