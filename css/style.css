@@ -7474,6 +7474,30 @@ a.text-dark:hover, a.text-dark:focus {
         .linha-agenda .botao-agenda .btn-agenda {
           font-size: 24px; } }
 
+.faixa-verde {
+  background-color: #37691E;
+  padding-right: 103px;
+  padding-left: 103px; }
+  .faixa-verde h6 {
+    font-size: 31px;
+    font-weight: bold; }
+    @media (min-width: 576px) {
+      .faixa-verde h6 {
+        font-size: 43px; } }
+  @media (min-width: 576px) {
+    .faixa-verde {
+      padding-right: 273px;
+      padding-left: 273px; } }
+  .faixa-verde .btn-faixa {
+    width: 207px;
+    height: 67px;
+    color: #2A2E32;
+    font-size: 21px;
+    font-weight: bold; }
+    @media (min-width: 576px) {
+      .faixa-verde .btn-faixa {
+        font-size: 24px; } }
+
 main {
   background-color: #e2e2e2; }
 
