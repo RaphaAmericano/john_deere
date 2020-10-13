@@ -2,9 +2,15 @@
     background-color: $cinza;
     padding-top: 77px;
     padding-bottom: 18px;
+    @include media-breakpoint-up(sm){
+        padding-right: 103px;
+        padding-left: 103px;
+    }
     .conteudo-upload {
-        margin-left: 273px;
-        padding-left: 0;
+        @include media-breakpoint-up(sm){
+            padding-left: 165px;
+            padding-right: 160px;
+        }
         h6{
             font-size: 29px;
             font-weight: bold;
@@ -13,8 +19,6 @@
         }
     }
     .conteudo-botao-upload {
-        margin-left: auto;
-        margin-right: auto;
         margin-bottom: 30px;
         padding-left: 47px;
         padding-right: 47px;
@@ -23,6 +27,10 @@
         border-radius: 15px;
         height: 278px;
         width: 308px;
+        @include media-breakpoint-down(sm){
+            margin-left: auto;
+            margin-right: auto;
+        }
         @include media-breakpoint-up(sm){
             height: 542px;
             width: 601px;
@@ -42,18 +50,22 @@
             }
         }
     }
-    .conteudo-text-mobile {
-        width: 308px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    p {
-        font-weight: lighter;
-        color: $white;
-        font-size: 30px;
-        @include media-breakpoint-down(sm){
-            font-size: 19px;
-            line-height: 15px;
+    .conteudo-text {
+        @include media-breakpoint-up(sm){
+            width: 739px;
+        }
+        p {
+            @include media-breakpoint-down(sm){
+                padding-left: 38px;    
+                padding-right: 38px;    
+            }
+            font-weight: lighter;
+            color: $white;
+            font-size: 30px;
+            @include media-breakpoint-down(sm){
+                font-size: 19px;
+                line-height: 15px;
+            }
         }
     }
 }
