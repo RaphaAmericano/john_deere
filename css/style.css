@@ -7337,16 +7337,19 @@ a.text-dark:hover, a.text-dark:focus {
 
 .hero {
   background-image: url("../img/bg_rostos.png");
-  padding: 149px 75px 141px 31px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 0px 0px; }
+  padding: 149px 75px 141px 31px; }
   @media (max-width: 575.98px) {
     .hero {
       padding: 49px 75px 76px 64px;
-      background-size: cover;
-      background-repeat: no-repeat;
       background-position: -145px 0px; } }
+  @media (min-width: 768px) and (max-width: 1199.98px) {
+    .hero {
+      background-position: -200px 0px; } }
+  @media (min-width: 1200px) {
+    .hero {
+      background-position: 0px 0px; } }
   .hero h2 {
     color: #fff;
     font-size: 43px;
@@ -7398,15 +7401,13 @@ a.text-dark:hover, a.text-dark:focus {
   padding-bottom: 22px;
   background-color: #fff;
   border-radius: 25px 25px 0 0;
-  margin-top: -57px; }
-  @media (min-width: 576px) {
-    .agenda {
-      padding-top: 81px;
-      padding-bottom: 45px;
-      padding-left: 193px;
-      padding-right: 193px;
-      margin-left: 80px;
-      margin-right: 80px; } }
+  margin-top: -57px;
+  padding-top: 81px;
+  padding-bottom: 45px;
+  padding-left: 193px;
+  padding-right: 193px;
+  margin-left: 80px;
+  margin-right: 80px; }
   .agenda .header-agenda {
     margin-bottom: 61px; }
     @media (max-width: 767.98px) {
@@ -7535,11 +7536,14 @@ a.text-dark:hover, a.text-dark:focus {
 .faixa-upload {
   background-color: #2A2E32;
   padding-top: 77px;
-  padding-bottom: 18px; }
+  padding-bottom: 118px; }
   @media (min-width: 576px) {
     .faixa-upload {
       padding-right: 103px;
       padding-left: 103px; } }
+  @media (max-width: 767.98px) {
+    .faixa-upload {
+      padding-bottom: 18px; } }
   @media (min-width: 576px) {
     .faixa-upload .conteudo-upload {
       padding-left: 165px;

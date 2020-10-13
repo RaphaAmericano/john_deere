@@ -1,15 +1,18 @@
 .hero {
     background-image: url('../img/bg_rostos.png');
+    background-size: cover;
+    background-repeat: no-repeat;
     padding: 149px 75px 141px 31px;
     @include media-breakpoint-down(xs){
         padding: 49px 75px 76px 64px;
-        background-size: cover;
-        background-repeat: no-repeat;
         background-position: -145px 0px;
     }
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 0px 0px;
+    @include media-breakpoint-between(md, lg){
+        background-position: -200px 0px;
+    }
+    @include media-breakpoint-up(xl){
+        background-position: 0px 0px;
+    }
     h2 {
         color: $white;
         font-size: 43px;

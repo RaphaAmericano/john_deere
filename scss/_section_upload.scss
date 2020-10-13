@@ -1,10 +1,14 @@
 .faixa-upload {
     background-color: $cinza;
     padding-top: 77px;
-    padding-bottom: 18px;
+    padding-bottom: 118px;
     @include media-breakpoint-up(sm){
         padding-right: 103px;
         padding-left: 103px;
+        
+    }
+    @include media-breakpoint-down(sm){
+        padding-bottom: 18px;
     }
     .conteudo-upload {
         @include media-breakpoint-up(sm){

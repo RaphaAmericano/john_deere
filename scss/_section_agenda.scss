@@ -4,7 +4,7 @@
     background-color: $white;
     border-radius: 25px 25px 0 0;
     margin-top: -57px;
-    @include media-breakpoint-up(sm){
+    @include media-breakpoint-up(lx){
         padding-top: 81px;
         padding-bottom: 45px;
         padding-left: 193px;
@@ -12,6 +12,10 @@
         margin-left: 80px;
         margin-right: 80px;
     }
+    // @include media-breakpoint-down(lg){
+    //     padding-left: 100px;
+    //     padding-right: 100px;
+    // }
     .header-agenda {
         margin-bottom: 61px;
         @include media-breakpoint-down(sm){
