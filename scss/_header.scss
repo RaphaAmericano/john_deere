@@ -38,21 +38,27 @@
     }
     .navbar-opcoes {
         .nav-item {
-            @include media-breakpoint-down(sm){
-                padding: 27px 0 37.8px 0;
-            }
+            text-align: center;
+            font-weight: bold;
+            font-size: 35px;
             padding: 43px 37px 40.8px 37px;
+            
             &:nth-child(even){
                 background-color: #E6E6E6;
             }
             &:nth-child(odd){
                 background-color: #F2F2F2;
             }
-            text-align: center;
-            font-weight: bold;
-            font-size: 35px;
+
+            @include media-breakpoint-down(sm){
+                padding: 27px 0 37.8px 0;
+            }
             @include media-breakpoint-up(sm){
                 font-size: 21px;
+            }
+            @include media-breakpoint-between(sm, xl){
+                font-size: 18px;
+                padding: 43px 28px 40.8px 28px;
             }
         }
     }
@@ -63,20 +69,16 @@
             margin-right: 84px;
         }
         .nav-item {
-            @include media-breakpoint-down(xs){
-                margin-bottom: 36.6px;
-            }
-            @include media-breakpoint-up(sm){
-                margin-right: 19px;
-                &:last-child{
-                    margin-right: 0;
-                }
-            }
+            
             img {
                 margin-right: 11px;
                 @include media-breakpoint-down(lg){
                     width: 34px;
                     height: 35px;
+                }
+                @include media-breakpoint-between(sm, xl){
+                    width: 28px;
+                    height: 28px;    
                 }
                 width: 31px;
                 height: 31px;
@@ -85,6 +87,18 @@
                 font-size: 22px;
                 @include media-breakpoint-up(sm){
                     font-size: 21px;
+                }
+                @include media-breakpoint-between(sm, xl){
+                    font-size: 18px;
+                }
+            }
+            @include media-breakpoint-down(xs){
+                margin-bottom: 36.6px;
+            }
+            @include media-breakpoint-up(sm){
+                margin-right: 19px;
+                &:last-child{
+                    margin-right: 0;
                 }
             }
         }
