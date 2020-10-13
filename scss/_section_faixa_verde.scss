@@ -2,25 +2,34 @@
     background-color: $verde;
     padding-right: 103px;
     padding-left: 103px;
-    h6 {
-        font-size: 31px;
-        font-weight: bold;
-        @include media-breakpoint-up(sm){
-            font-size: 43px;
+    .conteudo-faixa-verde{
+        margin-top: 71px;
+        margin-bottom: 68px;
+        @include media-breakpoint-down(sm){
+            margin-top: 102px;
+            margin-bottom: 95px;
         }
-    }
-    @include media-breakpoint-up(sm){
-        padding-right: 273px;
-        padding-left: 273px;
-    }
-    .btn-faixa {
-        width: 207px;
-        height: 67px;
-        color: $cinza;
-        font-size: 21px;
-        font-weight: bold;
+        h6 {
+            color: $white;
+            font-size: 31px;
+            font-weight: bold;
+            @include media-breakpoint-up(sm){
+                font-size: 43px;
+            }
+        }
         @include media-breakpoint-up(sm){
-            font-size: 24px;
+            padding-right: 160px;
+            padding-left: 165px;
+        }
+        .btn-faixa {
+            width: 207px;
+            height: 67px;
+            color: $cinza;
+            font-size: 21px;
+            font-weight: bold;
+            @include media-breakpoint-up(sm){
+                font-size: 24px;
+            }
         }
     }
 }
