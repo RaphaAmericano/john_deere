@@ -7610,7 +7610,21 @@ a.text-dark:hover, a.text-dark:focus {
           padding-top: 20px;
           padding-bottom: 16px; } }
 
-main {
+footer {
+  padding-top: 47px;
+  padding-bottom: 39px; }
+  @media (max-width: 767.98px) {
+    footer {
+      padding-top: 34px;
+      padding-bottom: 27px; } }
+  footer p {
+    font-size: 22px;
+    color: #1F293A; }
+    @media (max-width: 767.98px) {
+      footer p {
+        font-size: 19px; } }
+
+body {
   background-color: #e2e2e2; }
 
 .padding-content {

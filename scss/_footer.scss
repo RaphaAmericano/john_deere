@@ -1,0 +1,15 @@
+footer {
+    @include media-breakpoint-down(sm){
+        padding-top: 34px;
+        padding-bottom: 27px;    
+    }
+    padding-top: 47px;
+    padding-bottom: 39px;
+    p {
+        font-size: 22px;
+        @include media-breakpoint-down(sm){
+            font-size: 19px;
+        }
+        color: #1F293A;
+    }
+}

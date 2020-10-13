@@ -18,8 +18,9 @@ $secondary: $amarelo;
 @import '_section_agenda';
 @import '_section_faixa_verde';
 @import '_section_upload';
+@import '_footer';
 
-main {
+body {
     background-color: #e2e2e2;;
 }
 
