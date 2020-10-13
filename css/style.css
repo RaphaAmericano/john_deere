@@ -7358,7 +7358,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .sobre {
   margin-top: -50px;
-  border-radius: 50px 50px 0 0;
+  border-radius: 25px 25px 0 0;
   background-color: #37691E;
   padding: 34px 26px 16px 28px; }
   @media (min-width: 1200px) {
@@ -7377,57 +7377,82 @@ a.text-dark:hover, a.text-dark:focus {
 
 .agenda {
   padding-top: 27px;
+  padding-bottom: 22px;
   background-color: #fff;
-  border-radius: 50px 50px 0 0;
-  margin-top: -57px; }
+  border-radius: 25px 25px 0 0;
+  margin-top: -57px;
+  padding-left: 0px;
+  padding-right: 0px; }
+  .agenda h5 {
+    display: inline;
+    font-size: 43px;
+    color: #000;
+    font-weight: bold; }
+  .agenda span a {
+    font-size: 38px;
+    font-weight: bold; }
+    .agenda span a:first-child {
+      color: #FEE200; }
+    .agenda span a:last-child {
+      color: #B8B8B8; }
   @media (max-width: 575.98px) {
     .agenda h5, .agenda span {
       text-align: center; }
     .agenda h5 {
-      color: #000;
-      font-size: 29px;
-      font-weight: bold; }
+      display: block;
+      font-size: 29px; }
     .agenda span {
       display: block; }
       .agenda span a {
-        font-size: 24px;
-        font-weight: bold; }
-        .agenda span a:first-child {
-          color: #FEE200; }
-        .agenda span a:last-child {
-          color: #B8B8B8; } }
+        font-size: 24px; } }
 
-.linha-agenda .conteudo-agenda {
-  margin-top: 22px; }
-  .linha-agenda .conteudo-agenda span {
-    width: 67px;
-    height: 67px;
-    color: #fff;
-    border-radius: 10px;
-    background-color: #2A2E32; }
-    .linha-agenda .conteudo-agenda span strong {
-      font-size: 27px; }
-    .linha-agenda .conteudo-agenda span small {
-      font-size: 17px; }
+.linha-agenda {
+  padding-left: 0;
+  padding-right: 0; }
+  .linha-agenda .conteudo-agenda {
+    margin-top: 22px; }
+    .linha-agenda .conteudo-agenda span {
+      width: 99px;
+      height: 99px;
+      color: #fff;
+      border-radius: 10px;
+      background-color: #2A2E32; }
+      @media (max-width: 575.98px) {
+        .linha-agenda .conteudo-agenda span {
+          width: 67px;
+          height: 67px; } }
+      .linha-agenda .conteudo-agenda span strong {
+        font-size: 27px; }
+      .linha-agenda .conteudo-agenda span small {
+        font-size: 17px; }
+  .linha-agenda .titulo-agenda {
+    margin-top: 30px;
+    padding: 0 34px; }
+    .linha-agenda .titulo-agenda h6 {
+      font-size: 29px;
+      color: #37691E;
+      font-weight: bold; }
+      @media (max-width: 767.98px) {
+        .linha-agenda .titulo-agenda h6 {
+          text-align: center; } }
+      @media (min-width: 576px) {
+        .linha-agenda .titulo-agenda h6 {
+          text-align: left; } }
+    .linha-agenda .titulo-agenda strong, .linha-agenda .titulo-agenda small {
+      font-size: 21px;
+      color: #2A2E32; }
+  .linha-agenda .botao-agenda {
+    margin-top: 26px;
+    margin-left: auto; }
+    .linha-agenda .botao-agenda .btn-agenda {
+      width: 207px;
+      height: 67px;
+      color: #2A2E32;
+      font-size: 21px;
+      font-weight: bold; }
 
-.linha-agenda .titulo-agenda {
-  padding: 0 34px; }
-  .linha-agenda .titulo-agenda h6 {
-    font-size: 29px;
-    color: #37691E;
-    font-weight: bold; }
-  .linha-agenda .titulo-agenda strong, .linha-agenda .titulo-agenda small {
-    font-size: 21px;
-    color: #2A2E32; }
-
-.linha-agenda .botao-agenda {
-  margin-top: 26px; }
-  .linha-agenda .botao-agenda .btn-agenda {
-    width: 207px;
-    height: 67px;
-    color: #2A2E32;
-    font-size: 21px;
-    font-size: bold; }
+main {
+  background-color: #e2e2e2; }
 
 .padding-content {
   padding: 0 80px; }

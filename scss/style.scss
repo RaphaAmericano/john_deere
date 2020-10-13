@@ -16,6 +16,9 @@ $secondary: $amarelo;
 @import '_hero';
 @import '_section_sobre';
 @import '_section_agenda';
+main {
+    background-color: #e2e2e2;;
+}
 
 .padding-content {
     padding:0 80px;

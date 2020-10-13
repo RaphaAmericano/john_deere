@@ -1,38 +1,69 @@
 .agenda {
     padding-top: 27px;
+    padding-bottom: 22px;
     background-color: $white;
-    border-radius: 50px 50px 0 0;
+    border-radius: 25px 25px 0 0;
     margin-top: -57px;
+    @include media-breakpoint-up(xs){
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    @include media-breakpoint-up(lx){
+        // padding-left: 163px;
+        // padding-right: 163px;
+    }
+    h5 {
+        display: inline;
+        font-size: 43px;
+        color: $black;
+        font-weight: bold;
+    }
+    span {
+        a{
+            font-size: 38px;
+            font-weight: bold;
+            &:first-child {
+                color: $amarelo;
+            }
+            &:last-child {
+                color: #B8B8B8;
+            }
+        }
+    }
     @include media-breakpoint-down(xs){
         h5, span{
             text-align: center;
         }
         h5 {
-            color: $black;
+            display: block;
             font-size: 29px;
-            font-weight: bold;
         }
         span {
             display: block;
             a{
                 font-size: 24px;
-                font-weight: bold;
-                &:first-child {
-                    color: $amarelo;
-                }
-                &:last-child {
-                    color: #B8B8B8;
-                }
             }
         }
     }
 }
 .linha-agenda {
+    padding-left: 0;
+    padding-right: 0;
     .conteudo-agenda{
         margin-top: 22px;
+        @include media-breakpoint-up(lx){
+            img {
+                // width: 99px;
+                // height: 99px;
+            }
+        }
         span {
-            width: 67px;
-            height: 67px;
+            @include media-breakpoint-down(xs){
+                width: 67px;
+                height: 67px;    
+            }
+            width: 99px;
+            height: 99px;
             color: $white;
             border-radius: 10px;
             background-color: $cinza;
@@ -46,12 +77,18 @@
        
     }
     .titulo-agenda {
+        margin-top: 30px;
         padding: 0 34px;
-        
         h6 {
             font-size: 29px;
             color: $verde;
             font-weight: bold;
+            @include media-breakpoint-down(sm){
+                text-align: center;
+            }
+            @include media-breakpoint-up(sm){
+                text-align: left;
+            }
         }
         strong, small {
             font-size: 21px;
@@ -60,12 +97,13 @@
     }
     .botao-agenda {
         margin-top: 26px;
+        margin-left: auto;
         .btn-agenda {
             width: 207px;
             height: 67px;
             color: $cinza;
             font-size: 21px;
-            font-size: bold;
+            font-weight: bold;
         }
     }
 }
