@@ -7506,6 +7506,58 @@ a.text-dark:hover, a.text-dark:focus {
         .faixa-verde .conteudo-faixa-verde .btn-faixa {
           font-size: 24px; } }
 
+.faixa-upload {
+  background-color: #2A2E32;
+  padding-top: 77px;
+  padding-bottom: 18px; }
+  .faixa-upload .conteudo-upload {
+    margin-left: 273px;
+    padding-left: 0; }
+    .faixa-upload .conteudo-upload h6 {
+      font-size: 29px;
+      font-weight: bold;
+      color: #FEE200;
+      text-align: center; }
+  .faixa-upload .conteudo-botao-upload {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    padding-left: 47px;
+    padding-right: 47px;
+    margin-top: 17px;
+    background-color: #1E1F21;
+    border-radius: 15px;
+    height: 278px;
+    width: 308px; }
+    @media (min-width: 576px) {
+      .faixa-upload .conteudo-botao-upload {
+        height: 542px;
+        width: 601px; } }
+    .faixa-upload .conteudo-botao-upload img {
+      width: 87px; }
+      @media (min-width: 576px) {
+        .faixa-upload .conteudo-botao-upload img {
+          width: 170px; } }
+    .faixa-upload .conteudo-botao-upload .botao-upload-texto {
+      margin-top: 28px;
+      font-size: 16px;
+      color: #5F5F5F; }
+      @media (min-width: 576px) {
+        .faixa-upload .conteudo-botao-upload .botao-upload-texto {
+          font-size: 29px; } }
+  .faixa-upload .conteudo-text-mobile {
+    width: 308px;
+    margin-left: auto;
+    margin-right: auto; }
+  .faixa-upload p {
+    font-weight: lighter;
+    color: #fff;
+    font-size: 30px; }
+    @media (max-width: 767.98px) {
+      .faixa-upload p {
+        font-size: 19px;
+        line-height: 15px; } }
+
 main {
   background-color: #e2e2e2; }
 
