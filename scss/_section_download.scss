@@ -1,0 +1,89 @@
+.faixa-download {
+    .header-download {
+        margin-bottom: 31px;
+    }
+    .content-download {
+        padding-top: 27px;
+        padding-bottom: 22px;
+        background-color: $white;
+        
+        @include media-breakpoint-up(sm){
+            padding-left: 273px;
+            padding-right: 273px;
+            padding-top: 122px;
+            padding-bottom: 195px;
+            margin-left: 80px;
+            margin-right: 80px;
+            border-radius: 0px 0px 25px 25px;
+        }
+        @include media-breakpoint-down(sm){
+            border-radius: 25px 25px 25px 25px;
+            margin-top: -57px;
+        }
+        h5 {
+            display: inline;
+            font-size: 43px;
+            color: $black;
+            font-weight: bold;
+        }
+        span {
+            a{
+                font-size: 38px;
+                font-weight: bold;
+                color: #B8B8B8;
+                &.active {
+                    color: $amarelo;
+                }
+            }
+        }
+        @include media-breakpoint-down(xs){
+            h5, span{
+                text-align: center;
+            }
+            h5 {
+                display: block;
+                font-size: 29px;
+            }
+            span {
+                display: block;
+                a{
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+    .item-download {
+        background-color: #ECECEC;
+        margin-left:25px;
+        margin-right:25px;
+        margin-bottom: 18px;
+        @include media-breakpoint-up(sm){
+            margin-bottom: 40px;
+        }
+        .cta-download {
+            width: 157px;
+            height: 97px;
+            background-color: $verde;
+            a {
+                margin-left: auto;
+                margin-right: auto;
+                img {
+                    width: 46px;
+                    height: 46px;
+                    
+                }
+            }
+            
+        }
+        .info-download {
+            margin-left: 26px;
+            
+            strong, small {
+                font-size: 16px;
+            }
+            strong{
+                color: $verde;
+            }
+        }
+    }
+}

@@ -18,11 +18,9 @@
         a{
             font-size: 38px;
             font-weight: bold;
-            &:first-child {
+            color: #B8B8B8;
+            &.active {
                 color: $amarelo;
-            }
-            &:last-child {
-                color: #B8B8B8;
             }
         }
     }
