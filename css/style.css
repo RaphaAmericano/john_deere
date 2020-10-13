@@ -7533,6 +7533,13 @@ a.text-dark:hover, a.text-dark:focus {
     font-weight: bold;
     color: #FEE200;
     text-align: center; }
+    @media (min-width: 576px) {
+      .faixa-upload .conteudo-upload h6 {
+        text-align: left;
+        font-size: 43px; } }
+  .faixa-upload .conteudo-upload p {
+    font-size: 30px;
+    font-weight: lighter; }
   .faixa-upload .conteudo-botao-upload {
     margin-bottom: 30px;
     padding-left: 47px;
@@ -7549,7 +7556,8 @@ a.text-dark:hover, a.text-dark:focus {
     @media (min-width: 576px) {
       .faixa-upload .conteudo-botao-upload {
         height: 542px;
-        width: 601px; } }
+        width: 601px;
+        margin-bottom: 101px; } }
     .faixa-upload .conteudo-botao-upload img {
       width: 87px; }
       @media (min-width: 576px) {
@@ -7579,6 +7587,9 @@ a.text-dark:hover, a.text-dark:focus {
         line-height: 15px; } }
   .faixa-upload .conteudo-qa {
     background-color: #5F5F5F; }
+    .faixa-upload .conteudo-qa .form-group label {
+      font-size: 38px;
+      font-weight: bold; }
     .faixa-upload .conteudo-qa .form-inline label {
       font-size: 64px;
       color: #2A2E32; }
@@ -7598,7 +7609,12 @@ a.text-dark:hover, a.text-dark:focus {
           padding-top: 48px;
           padding-bottom: 43px; }
         .faixa-upload .conteudo-qa button {
-          margin-left: 32px; } }
+          font-size: 26px;
+          font-weight: bold;
+          width: 198px;
+          margin-left: 32px;
+          padding-top: 24px;
+          padding-bottom: 20px; } }
     @media (max-width: 767.98px) {
       .faixa-upload .conteudo-qa {
         border-radius: 15px 15px 0 0;

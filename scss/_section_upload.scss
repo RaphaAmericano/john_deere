@@ -16,6 +16,14 @@
             font-weight: bold;
             color: $amarelo;
             text-align: center;
+            @include media-breakpoint-up(sm){
+                text-align: left;
+                font-size: 43px;
+            }
+        }
+        p {
+            font-size: 30px;
+            font-weight: lighter;
         }
     }
     .conteudo-botao-upload {
@@ -34,6 +42,7 @@
         @include media-breakpoint-up(sm){
             height: 542px;
             width: 601px;
+            margin-bottom: 101px;
         }
         img {
             width: 87px;
@@ -70,6 +79,12 @@
     }
     .conteudo-qa {
         background-color: #5F5F5F;
+        .form-group {
+            label {
+                font-size: 38px;
+                font-weight: bold;
+            }
+        }
         .form-inline {
             label {
                 font-size: 64px;
@@ -93,7 +108,12 @@
                 padding-bottom: 43px;
             }
             button{
+                font-size: 26px;
+                font-weight: bold;
+                width: 198px;
                 margin-left: 32px;
+                padding-top: 24px;
+                padding-bottom: 20px;
             }
         }
         @include media-breakpoint-down(sm){
