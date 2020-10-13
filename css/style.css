@@ -7370,6 +7370,45 @@ a.text-dark:hover, a.text-dark:focus {
     .hero .contador small {
       font-size: 12px; }
 
+.hero_regressiva {
+  background-image: url("../img/bg_regressiva.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 391px 0 392px 0;
+  background-position: 0px 0px; }
+  @media (max-width: 575.98px) {
+    .hero_regressiva {
+      padding: 96px 0 96px 0; } }
+  .hero_regressiva h2 {
+    color: #fff;
+    font-size: 43px;
+    font-weight: bold; }
+    @media (max-width: 767.98px) {
+      .hero_regressiva h2 {
+        font-size: 22px;
+        margin-bottom: 12px; } }
+  .hero_regressiva .contador {
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 17px 23px;
+    width: 816px; }
+    @media (max-width: 767.98px) {
+      .hero_regressiva .contador {
+        padding: 0 30px 0 30px;
+        width: 348px; } }
+    .hero_regressiva .contador strong {
+      font-size: 43px; }
+      @media (min-width: 576px) {
+        .hero_regressiva .contador strong {
+          font-size: 63px; } }
+    .hero_regressiva .contador small {
+      text-align: center;
+      font-size: 21; }
+      @media (min-width: 576px) {
+        .hero_regressiva .contador small {
+          font-size: 42px; } }
+
 .sobre {
   margin-top: -50px;
   border-radius: 25px 25px 0 0;
@@ -7396,6 +7435,93 @@ a.text-dark:hover, a.text-dark:focus {
       .sobre h3 {
         font-size: 29px; } }
 
+.qa_alternativo {
+  padding: 34px 26px 16px 28px;
+  background-color: #fff; }
+  @media (min-width: 1200px) {
+    .qa_alternativo {
+      padding: 90px 193px 91px 200px;
+      margin-top: 43px;
+      margin-left: 80px;
+      margin-right: 80px; } }
+  .qa_alternativo .form-group label {
+    font-size: 38px;
+    font-weight: bold; }
+  .qa_alternativo .form-group input {
+    background-color: #DCDCDC; }
+  .qa_alternativo .form-inline label {
+    font-size: 64px;
+    color: #2A2E32; }
+  @media (min-width: 576px) {
+    .qa_alternativo {
+      margin-left: 155px;
+      margin-right: 155px;
+      padding-top: 44px;
+      padding-bottom: 44px;
+      padding-left: 57px;
+      padding-right: 57px; }
+      .qa_alternativo label {
+        margin-right: 10px; }
+      .qa_alternativo input {
+        font-size: 29px;
+        background-color: #fff;
+        padding-top: 48px;
+        padding-bottom: 43px; }
+      .qa_alternativo button {
+        font-size: 26px;
+        font-weight: bold;
+        width: 198px;
+        margin-left: 32px;
+        padding-top: 24px;
+        padding-bottom: 20px; } }
+  @media (max-width: 767.98px) {
+    .qa_alternativo {
+      border-radius: 15px 15px 0 0;
+      padding-left: 38px;
+      padding-right: 38px;
+      padding-bottom: 47px; }
+      .qa_alternativo label {
+        text-align: center;
+        display: block; }
+      .qa_alternativo input {
+        padding: 66px 64px 63px 65px; }
+      .qa_alternativo button {
+        color: #2A2E32;
+        font-size: 21px;
+        text-align: center;
+        width: 207px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+        padding-bottom: 16px; } }
+
+.sobre_alternativo {
+  margin-top: -50px;
+  border-radius: 25px 25px 0 0;
+  padding: 34px 26px 16px 28px;
+  margin-bottom: 60px; }
+  @media (min-width: 1200px) {
+    .sobre_alternativo {
+      padding: 90px 193px 91px 200px;
+      margin-left: 80px;
+      margin-right: 80px; } }
+  .sobre_alternativo p {
+    color: #000;
+    font-size: 19px;
+    font-weight: lighter; }
+    @media (min-width: 992px) {
+      .sobre_alternativo p {
+        font-size: 30px;
+        margin-bottom: 91px; } }
+  .sobre_alternativo h3 {
+    font-size: 43px;
+    color: #000;
+    font-weight: bold; }
+    @media (max-width: 575.98px) {
+      .sobre_alternativo h3 {
+        font-size: 29px;
+        color: #37691E; } }
+
 .agenda {
   padding-top: 27px;
   padding-bottom: 22px;
@@ -7408,6 +7534,12 @@ a.text-dark:hover, a.text-dark:focus {
   padding-right: 193px;
   margin-left: 80px;
   margin-right: 80px; }
+  @media (max-width: 575.98px) {
+    .agenda {
+      padding-left: 0;
+      padding-right: 0;
+      margin-left: 0;
+      margin-right: 0; } }
   .agenda .header-agenda {
     margin-bottom: 61px; }
     @media (max-width: 767.98px) {

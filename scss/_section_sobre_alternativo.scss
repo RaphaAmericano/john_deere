@@ -1,0 +1,104 @@
+.qa_alternativo {
+    padding: 34px 26px 16px 28px;
+    background-color: $white;
+    @include media-breakpoint-up(xl) {
+        padding: 90px 193px 91px 200px;
+        margin-top: 43px;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    .form-group {
+        label {
+            font-size: 38px;
+            font-weight: bold;
+        }
+        input{
+            background-color: #DCDCDC;
+        }
+    }
+    .form-inline {
+        label {
+            font-size: 64px;
+            color: $cinza;
+        }
+    }
+    @include media-breakpoint-up(sm){
+        margin-left: 155px;
+        margin-right: 155px;
+        padding-top: 44px;
+        padding-bottom: 44px;
+        padding-left: 57px;
+        padding-right: 57px;
+        label {
+            margin-right: 10px;
+        }
+        input {
+            font-size: 29px;
+            background-color: $white;
+            padding-top: 48px; 
+            padding-bottom: 43px;
+        }
+        button{
+            font-size: 26px;
+            font-weight: bold;
+            width: 198px;
+            margin-left: 32px;
+            padding-top: 24px;
+            padding-bottom: 20px;
+        }
+    }
+    @include media-breakpoint-down(sm){
+        border-radius: 15px 15px 0 0;
+        padding-left: 38px;
+        padding-right: 38px;
+        padding-bottom: 47px;
+        label {
+            text-align: center;
+            display: block;
+        }
+        input {
+            padding: 66px 64px 63px 65px;
+        }
+        button {
+            color: $cinza;
+            font-size: 21px;
+            text-align: center;
+            width: 207px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 20px;
+            padding-bottom: 16px;
+        }
+    }
+}
+.sobre_alternativo {
+    margin-top: -50px;  
+    border-radius: 25px 25px 0 0 ;  
+    padding: 34px 26px 16px 28px;
+    @include media-breakpoint-up(xl) {
+        padding: 90px 193px 91px 200px;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    @include media-breakpoint-up(xs) {
+        margin-bottom: 60px;
+    }
+    p{
+        color: $black;
+        font-size: 19px;
+        font-weight: lighter;
+        @include media-breakpoint-up(lg) {
+            font-size: 30px;
+            margin-bottom: 91px;
+        }
+    }
+    h3 {
+        font-size: 43px;
+        @include media-breakpoint-down(xs){
+            font-size: 29px;
+            color: $verde;
+        }
+        color: $black;
+        font-weight: bold;
+    }
+}
