@@ -70,7 +70,6 @@
     }
     .conteudo-qa {
         background-color: #5F5F5F;
-        border-radius: 15px 15px 0 0;
         .form-inline {
             label {
                 font-size: 64px;
@@ -80,10 +79,28 @@
         @include media-breakpoint-up(sm){
             margin-left: 155px;
             margin-right: 155px;
+            padding-top: 44px;
+            padding-bottom: 44px;
+            padding-left: 57px;
+            padding-right: 57px;
+            label {
+                margin-right: 10px;
+            }
+            input {
+                font-size: 29px;
+                background-color: $white;
+                padding-top: 48px; 
+                padding-bottom: 43px;
+            }
+            button{
+                margin-left: 32px;
+            }
         }
         @include media-breakpoint-down(sm){
+            border-radius: 15px 15px 0 0;
             padding-left: 38px;
             padding-right: 38px;
+            padding-bottom: 63px;
             label {
                 text-align: center;
                 display: block;
@@ -98,8 +115,8 @@
                 width: 207px;
                 margin-left: auto;
                 margin-right: auto;
-                padding-top: 25px;
-                padding-bottom: 21px;
+                padding-top: 20px;
+                padding-bottom: 16px;
             }
         }
     }
