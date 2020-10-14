@@ -8,7 +8,22 @@
             margin-left: 135px;
             padding-bottom: 320px;
         }
+        @include media-breakpoint-down(lg){
+            margin-top: 280px;
+            margin-left: 76px;
+            padding-bottom: 825px;
+        }
+        @include media-breakpoint-down(md){
+            margin-top: 222px;
+            margin-left: 62px;
+            padding-bottom: 425px;
+        }
         @include media-breakpoint-down(sm){
+            margin-top: 22px;
+            margin-left: 35px;
+            padding-bottom: 50px;
+        }
+        @include media-breakpoint-down(xs){
             margin-top: 22px;
             margin-left: 0;
         }
@@ -39,9 +54,21 @@
         margin-top: 114px;
         margin-left: 135px;
     }
+    @include media-breakpoint-down(lg){
+        margin-top: 70px;
+        margin-left: 76px;
+    }
+    @include media-breakpoint-down(md){
+        margin-top: 55px;
+        margin-left: 62px;
+    }
     @include media-breakpoint-down(sm){
         margin-top: 250px;
-        margin-left: 0px;
+        margin-left: 35px;
+    }
+    @include media-breakpoint-down(xs){
+        margin-top: 250px;
+        margin-left: 0;
     }
     .nav-item {
         margin-right: 10px;

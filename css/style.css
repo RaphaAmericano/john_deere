@@ -7527,7 +7527,22 @@ a.text-dark:hover, a.text-dark:focus {
       margin-top: 444px;
       margin-left: 135px;
       padding-bottom: 320px; } }
+  @media (max-width: 1199.98px) {
+    .login .form-login {
+      margin-top: 280px;
+      margin-left: 76px;
+      padding-bottom: 825px; } }
+  @media (max-width: 991.98px) {
+    .login .form-login {
+      margin-top: 222px;
+      margin-left: 62px;
+      padding-bottom: 425px; } }
   @media (max-width: 767.98px) {
+    .login .form-login {
+      margin-top: 22px;
+      margin-left: 35px;
+      padding-bottom: 50px; } }
+  @media (max-width: 575.98px) {
     .login .form-login {
       margin-top: 22px;
       margin-left: 0; } }
@@ -7551,10 +7566,25 @@ a.text-dark:hover, a.text-dark:focus {
     margin-top: 114px;
     margin-left: 135px; } }
 
+@media (max-width: 1199.98px) {
+  .navbar-login {
+    margin-top: 70px;
+    margin-left: 76px; } }
+
+@media (max-width: 991.98px) {
+  .navbar-login {
+    margin-top: 55px;
+    margin-left: 62px; } }
+
 @media (max-width: 767.98px) {
   .navbar-login {
     margin-top: 250px;
-    margin-left: 0px; } }
+    margin-left: 35px; } }
+
+@media (max-width: 575.98px) {
+  .navbar-login {
+    margin-top: 250px;
+    margin-left: 0; } }
 
 .navbar-login .nav-item {
   margin-right: 10px; }
