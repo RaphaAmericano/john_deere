@@ -6,8 +6,11 @@
         margin-top: 71px;
         margin-bottom: 68px;
         @include media-breakpoint-down(sm){
-            margin-top: 102px;
+            margin-top: 60px;
             margin-bottom: 95px;
+            padding-right: 110px;
+            padding-left: 110px;
+            
         }
         h6 {
             color: $white;
@@ -16,8 +19,11 @@
             @include media-breakpoint-up(sm){
                 font-size: 43px;
             }
+            @include media-breakpoint-down(sm){
+                text-align: center;
+            }
         }
-        @include media-breakpoint-up(sm){
+        @include media-breakpoint-up(md){
             padding-right: 160px;
             padding-left: 165px;
         }
@@ -29,6 +35,10 @@
             font-weight: bold;
             @include media-breakpoint-up(sm){
                 font-size: 24px;
+            }
+            @include media-breakpoint-down(sm){
+                margin-left: auto;
+                margin-right: auto;
             }
         }
     }

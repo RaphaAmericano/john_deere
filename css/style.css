@@ -8041,8 +8041,10 @@ a.text-dark:hover, a.text-dark:focus {
     margin-bottom: 68px; }
     @media (max-width: 767.98px) {
       .faixa-verde .conteudo-faixa-verde {
-        margin-top: 102px;
-        margin-bottom: 95px; } }
+        margin-top: 60px;
+        margin-bottom: 95px;
+        padding-right: 110px;
+        padding-left: 110px; } }
     .faixa-verde .conteudo-faixa-verde h6 {
       color: #fff;
       font-size: 31px;
@@ -8050,7 +8052,10 @@ a.text-dark:hover, a.text-dark:focus {
       @media (min-width: 576px) {
         .faixa-verde .conteudo-faixa-verde h6 {
           font-size: 43px; } }
-    @media (min-width: 576px) {
+      @media (max-width: 767.98px) {
+        .faixa-verde .conteudo-faixa-verde h6 {
+          text-align: center; } }
+    @media (min-width: 768px) {
       .faixa-verde .conteudo-faixa-verde {
         padding-right: 160px;
         padding-left: 165px; } }
@@ -8063,6 +8068,10 @@ a.text-dark:hover, a.text-dark:focus {
       @media (min-width: 576px) {
         .faixa-verde .conteudo-faixa-verde .btn-faixa {
           font-size: 24px; } }
+      @media (max-width: 767.98px) {
+        .faixa-verde .conteudo-faixa-verde .btn-faixa {
+          margin-left: auto;
+          margin-right: auto; } }
 
 .faixa-upload {
   background-color: #2A2E32;
