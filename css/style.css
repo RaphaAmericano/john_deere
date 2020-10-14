@@ -7556,24 +7556,26 @@ a.text-dark:hover, a.text-dark:focus {
   background-repeat: no-repeat;
   background-size: contain; }
   .login_2 .form-login {
-    margin-top: 444px;
+    margin-top: 72px;
     margin-left: 135px;
-    padding-bottom: 320px; }
-    .login_2 .form-login .form-inline input {
+    padding-bottom: 478px; }
+    .login_2 .form-login .form-group input {
       font-size: 26px;
       width: 427px;
-      height: 79px;
+      height: 61px;
       margin-right: 6px;
-      margin-bottom: 8px; }
+      margin-bottom: 8px;
+      transform: skewX(-10deg); }
     .login_2 .form-login button {
       color: #2A2E32;
       font-size: 26px;
       font-weight: bold;
       width: 277px;
-      height: 82px; }
+      height: 63px;
+      transform: skewX(-10deg); }
 
 .navbar-login {
-  margin-top: 114px;
+  margin-top: 224px;
   margin-left: 135px; }
   .navbar-login .nav-item {
     margin-right: 10px; }

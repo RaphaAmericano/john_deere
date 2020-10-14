@@ -6,16 +6,17 @@
     // min-height: 976px;
     .form-login {
         // height: 1080px;
-        margin-top: 444px;
+        margin-top: 72px;
         margin-left: 135px;
-        padding-bottom: 320px;
-        .form-inline{
+        padding-bottom: 478px;
+        .form-group{
             input {
                 font-size: 26px;
                 width:427px;
-                height: 79px;
+                height: 61px;
                 margin-right: 6px;
                 margin-bottom: 8px;
+                transform: skewX(-10deg);
             }
         }
         button{
@@ -23,12 +24,13 @@
             font-size: 26px;
             font-weight: bold;
             width: 277px;
-            height: 82px;
+            height: 63px;
+            transform: skewX(-10deg);
         }
     }
 }
 .navbar-login {
-    margin-top: 114px;
+    margin-top: 224px;
     margin-left: 135px;
     .nav-item {
         margin-right: 10px;
