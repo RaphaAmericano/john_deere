@@ -7599,32 +7599,63 @@ a.text-dark:hover, a.text-dark:focus {
   background-image: url("../img/bg_login_2.png");
   background-repeat: no-repeat;
   background-size: contain; }
-  .login_2 .form-login {
-    margin-top: 72px;
-    margin-left: 135px;
-    padding-bottom: 478px; }
-    .login_2 .form-login .form-group input {
-      font-size: 26px;
-      width: 427px;
-      height: 61px;
-      margin-right: 6px;
-      margin-bottom: 8px;
-      transform: skewX(-10deg); }
-    .login_2 .form-login button {
-      color: #2A2E32;
-      font-size: 26px;
-      font-weight: bold;
-      width: 277px;
-      height: 63px;
-      transform: skewX(-10deg); }
-  .login_2 .navbar-login {
-    margin-top: 224px;
-    margin-left: 135px; }
-    .login_2 .navbar-login .nav-item {
-      margin-right: 10px; }
-      .login_2 .navbar-login .nav-item .nav-link {
-        color: #fff;
-        font-size: 21px; }
+  @media (min-width: 1200px) {
+    .login_2 .form-login {
+      margin-top: 72px;
+      margin-left: 135px;
+      padding-bottom: 478px; } }
+  @media (max-width: 575.98px) {
+    .login_2 .form-login {
+      margin-top: 184px;
+      margin-left: 0; } }
+  .login_2 .form-login .form-group input {
+    font-size: 26px;
+    width: 427px;
+    height: 61px;
+    margin-right: 6px;
+    margin-bottom: 8px;
+    transform: skewX(-10deg); }
+    @media (max-width: 575.98px) {
+      .login_2 .form-login .form-group input {
+        font-size: 13px;
+        width: 384px;
+        height: 42px;
+        margin-right: 6px;
+        margin-bottom: 8px; } }
+  .login_2 .form-login button {
+    color: #2A2E32;
+    font-size: 26px;
+    font-weight: bold;
+    width: 277px;
+    height: 63px;
+    transform: skewX(-10deg); }
+    @media (max-width: 575.98px) {
+      .login_2 .form-login button {
+        font-size: 13px;
+        height: 38px; } }
+  @media (min-width: 1200px) {
+    .login_2 .navbar-login {
+      margin-top: 224px;
+      margin-left: 135px; } }
+  @media (max-width: 575.98px) {
+    .login_2 .navbar-login {
+      margin-top: 100px;
+      margin-left: 0px; } }
+  .login_2 .navbar-login .nav-item {
+    margin-right: 10px; }
+    @media (max-width: 575.98px) {
+      .login_2 .navbar-login .nav-item {
+        margin-right: 5px; } }
+    @media (max-width: 575.98px) {
+      .login_2 .navbar-login .nav-item img {
+        width: 20px;
+        height: 20px; } }
+    .login_2 .navbar-login .nav-item .nav-link {
+      color: #fff;
+      font-size: 21px; }
+      @media (max-width: 575.98px) {
+        .login_2 .navbar-login .nav-item .nav-link {
+          font-size: 12px; } }
 
 .fill {
   height: 400px; }
