@@ -7273,6 +7273,7 @@ a.text-dark:hover, a.text-dark:focus {
   background-size: contain; }
 
 .navbar-light .navbar-nav .nav-link {
+  cursor: pointer;
   padding: 0;
   color: #2A2E32; }
 
@@ -7334,6 +7335,153 @@ a.text-dark:hover, a.text-dark:focus {
       margin-right: 19px; }
       .navbar-collapse .navbar-idiomas .nav-item:last-child {
         margin-right: 0; } }
+
+.modal-backdrop.show {
+  opacity: 0; }
+
+.modal-header {
+  border-bottom: none; }
+  .modal-header .modal-title {
+    margin-left: auto;
+    margin-right: auto; }
+  .modal-header .close {
+    margin: -1rem -1rem -1rem 0; }
+
+.linha-modal-agenda {
+  margin-bottom: 10px; }
+
+.modal-content {
+  background-color: #2A2E32;
+  color: #fff; }
+
+.modal-title {
+  font-size: 39px;
+  font-weight: bold; }
+
+.modal-body {
+  border-bottom: none;
+  padding: 0 46px 14px 47px; }
+
+.icones-fotos img {
+  width: 84px;
+  height: 84px; }
+
+.caixa-data-horario {
+  width: 221px;
+  font-size: 19px;
+  background-color: #fff;
+  color: #37691E;
+  padding: 28px 36px 29px 55px;
+  border-radius: 15px; }
+
+.caixa-palestrantes {
+  width: 607px;
+  padding: 13px 36px 10px 55px;
+  border-radius: 15px;
+  background-color: #37691E; }
+  .caixa-palestrantes span {
+    font-weight: bold;
+    font-size: 21px;
+    color: #FEE200;
+    display: block; }
+  .caixa-palestrantes strong {
+    font-size: 21px;
+    color: #FEE200; }
+  .caixa-palestrantes small {
+    font-size: 21px;
+    color: #fff; }
+
+.caixa-biografia {
+  width: 168px; }
+  .caixa-biografia button {
+    font-size: 19px;
+    color: #FEE200;
+    font-weight: bold; }
+    .caixa-biografia button:hover {
+      color: inherit; }
+    .caixa-biografia button img {
+      margin-right: 15px; }
+
+.caixa-btn-assistir {
+  width: 168px; }
+  .caixa-btn-assistir button {
+    border-radius: 12px;
+    font-weight: bold;
+    padding: 27px 18px 26px 32px; }
+    .caixa-btn-assistir button img {
+      width: 32px;
+      height: 29px; }
+
+.video {
+  background-color: #000;
+  height: 467px; }
+  .video img {
+    margin-left: auto;
+    margin-right: auto; }
+
+.modal-video {
+  padding: 61px 196px 64px 161px; }
+  .modal-video .form-inline {
+    margin-top: 28.8px; }
+    .modal-video .form-inline input {
+      font-size: 19px;
+      text-align: center;
+      padding: 34px 0; }
+    .modal-video .form-inline button {
+      padding: 20px 25px 20px 25px;
+      text-transform: uppercase;
+      font-size: 19px;
+      margin-left: 4px; }
+
+.modal-biografia {
+  padding-bottom: 100px; }
+  .modal-biografia .modal-title {
+    color: #FEE200; }
+    .modal-biografia .modal-title h5 {
+      text-align: center;
+      font-size: 23px;
+      font-weight: bold; }
+    .modal-biografia .modal-title h6 {
+      text-align: center;
+      font-size: 21px; }
+      .modal-biografia .modal-title h6 small {
+        color: #fff; }
+  .modal-biografia .foto-palestrante {
+    width: 195px;
+    height: 195px;
+    margin-right: 24px; }
+  .modal-biografia h5 {
+    font-size: 21px;
+    color: #FEE200;
+    font-weight: bold; }
+
+.modal-upload h5 {
+  font-size: 39px; }
+
+.modal-upload .formulario-upload {
+  padding: 101px 250px 100px 250px;
+  margin-bottom: 61px;
+  border-radius: 15px;
+  background-color: #1E1F21; }
+  .modal-upload .formulario-upload label {
+    border-color: transparent;
+    font-size: 26px;
+    font-weight: bold;
+    background-color: transparent; }
+  .modal-upload .formulario-upload .input-upload {
+    cursor: pointer;
+    border-radius: 15px;
+    width: 193px;
+    height: 58px;
+    font-size: 18px;
+    background-color: #FEE200;
+    color: #2B2D33; }
+  .modal-upload .formulario-upload .form-control-file {
+    width: inherit;
+    display: none; }
+
+.modal-xl {
+  max-width: 1454px; }
 
 .hero {
   background-image: url("../img/bg_rostos.png");
@@ -7910,6 +8058,17 @@ footer {
 
 body {
   background-color: #e2e2e2; }
+
+.bg-mundo {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1080px; }
+  .bg-mundo.bg-mundo-br {
+    background-image: url("./../img/bg_mapa_mundi_br.png"); }
+  .bg-mundo.bg-mundo-us {
+    background-image: url("./../img/bg_mapa_mundi_us.png"); }
+  .bg-mundo.bg-mundo-us {
+    background-image: url("./../img/bg_mapa_mundi_es.png"); }
 
 .padding-content {
   padding: 0 80px; }
