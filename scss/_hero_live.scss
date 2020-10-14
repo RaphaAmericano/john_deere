@@ -2,6 +2,9 @@
     background-image: url('../img/bg_live.png');
     background-size: cover;
     background-repeat: no-repeat;
+    @include media-breakpoint-down(sm){
+        padding: 102px 0 287px 0;
+    }
     @include media-breakpoint-down(xs){
         padding: 127px 0 125px 0;
     }

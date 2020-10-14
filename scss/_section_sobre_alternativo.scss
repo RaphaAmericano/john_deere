@@ -7,6 +7,10 @@
         margin-left: 80px;
         margin-right: 80px;
     }
+
+    @include media-breakpoint-up(xs) {
+        background-color: transparent;
+    }
     .form-group {
         label {
             font-size: 38px;
@@ -14,6 +18,10 @@
         }
         input{
             background-color: #DCDCDC;
+            @include media-breakpoint-up(xs) {
+                text-align: center;
+                background-color: $white;
+            }
         }
     }
     .form-inline {

@@ -7758,6 +7758,9 @@ a.text-dark:hover, a.text-dark:focus {
   background-repeat: no-repeat;
   padding: 487px 0 487px 0;
   background-position: 0px 0px; }
+  @media (max-width: 767.98px) {
+    .hero_live {
+      padding: 102px 0 287px 0; } }
   @media (max-width: 575.98px) {
     .hero_live {
       padding: 127px 0 125px 0; } }
@@ -7819,7 +7822,8 @@ a.text-dark:hover, a.text-dark:focus {
 
 .qa_alternativo {
   padding: 34px 26px 16px 28px;
-  background-color: #fff; }
+  background-color: #fff;
+  background-color: transparent; }
   @media (min-width: 1200px) {
     .qa_alternativo {
       padding: 90px 193px 91px 200px;
@@ -7830,7 +7834,9 @@ a.text-dark:hover, a.text-dark:focus {
     font-size: 38px;
     font-weight: bold; }
   .qa_alternativo .form-group input {
-    background-color: #DCDCDC; }
+    background-color: #DCDCDC;
+    text-align: center;
+    background-color: #fff; }
   .qa_alternativo .form-inline label {
     font-size: 64px;
     color: #2A2E32; }
@@ -7916,6 +7922,14 @@ a.text-dark:hover, a.text-dark:focus {
   padding-right: 193px;
   margin-left: 80px;
   margin-right: 80px; }
+  @media (max-width: 767.98px) {
+    .agenda {
+      padding-top: 81px;
+      padding-bottom: 45px;
+      padding-left: 93px;
+      padding-right: 93px;
+      margin-left: 80px;
+      margin-right: 80px; } }
   @media (max-width: 575.98px) {
     .agenda {
       padding-left: 0;
@@ -7926,7 +7940,8 @@ a.text-dark:hover, a.text-dark:focus {
     margin-bottom: 61px; }
     @media (max-width: 767.98px) {
       .agenda .header-agenda {
-        margin-bottom: 22px; } }
+        margin-bottom: 22px;
+        text-align: center; } }
   .agenda h5 {
     display: inline;
     font-size: 43px;
@@ -7981,18 +7996,20 @@ a.text-dark:hover, a.text-dark:focus {
     padding: 0 34px; }
     @media (max-width: 767.98px) {
       .linha-agenda .titulo-agenda {
-        margin-top: 30px; } }
+        margin-top: 30px;
+        text-align: center;
+        padding: 0 30px; } }
     .linha-agenda .titulo-agenda h6 {
       font-size: 29px;
       color: #37691E;
-      font-weight: bold; }
+      font-weight: bold;
+      text-align: left; }
       @media (max-width: 767.98px) {
         .linha-agenda .titulo-agenda h6 {
           text-align: center;
           margin-bottom: 0; } }
-      @media (min-width: 576px) {
+      @media (max-width: 575.98px) {
         .linha-agenda .titulo-agenda h6 {
-          text-align: left;
           font-size: 31px; } }
     .linha-agenda .titulo-agenda strong, .linha-agenda .titulo-agenda small {
       font-size: 21px;
