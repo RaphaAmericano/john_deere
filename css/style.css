@@ -7522,31 +7522,45 @@ a.text-dark:hover, a.text-dark:focus {
   background-image: url("../img/bg_login_1.png");
   background-repeat: no-repeat;
   background-size: contain; }
-  .login .form-login {
-    margin-top: 444px;
-    margin-left: 135px;
-    padding-bottom: 320px; }
+  @media (min-width: 1200px) {
+    .login .form-login {
+      margin-top: 444px;
+      margin-left: 135px;
+      padding-bottom: 320px; } }
+  @media (max-width: 767.98px) {
+    .login .form-login {
+      margin-top: 22px;
+      margin-left: 0; } }
+  @media (min-width: 992px) {
     .login .form-login .form-inline input {
       font-size: 26px;
       width: 427px;
       height: 79px;
       margin-right: 6px;
-      margin-bottom: 8px; }
+      margin-bottom: 8px; } }
+  @media (min-width: 992px) {
     .login .form-login button {
       color: #2A2E32;
       font-size: 26px;
       font-weight: bold;
       width: 277px;
-      height: 82px; }
+      height: 82px; } }
 
-.navbar-login {
-  margin-top: 114px;
-  margin-left: 135px; }
-  .navbar-login .nav-item {
-    margin-right: 10px; }
-    .navbar-login .nav-item .nav-link {
-      color: #fff;
-      font-size: 21px; }
+@media (min-width: 1200px) {
+  .navbar-login {
+    margin-top: 114px;
+    margin-left: 135px; } }
+
+@media (max-width: 767.98px) {
+  .navbar-login {
+    margin-top: 250px;
+    margin-left: 0px; } }
+
+.navbar-login .nav-item {
+  margin-right: 10px; }
+  .navbar-login .nav-item .nav-link {
+    color: #fff;
+    font-size: 21px; }
 
 .fill {
   height: 400px; }
@@ -7573,15 +7587,14 @@ a.text-dark:hover, a.text-dark:focus {
       width: 277px;
       height: 63px;
       transform: skewX(-10deg); }
-
-.navbar-login {
-  margin-top: 224px;
-  margin-left: 135px; }
-  .navbar-login .nav-item {
-    margin-right: 10px; }
-    .navbar-login .nav-item .nav-link {
-      color: #fff;
-      font-size: 21px; }
+  .login_2 .navbar-login {
+    margin-top: 224px;
+    margin-left: 135px; }
+    .login_2 .navbar-login .nav-item {
+      margin-right: 10px; }
+      .login_2 .navbar-login .nav-item .nav-link {
+        color: #fff;
+        font-size: 21px; }
 
 .fill {
   height: 400px; }

@@ -2,34 +2,47 @@
     background-image: url('../img/bg_login_1.png');
     background-repeat: no-repeat;
     background-size: contain;
-    // height: 1080px;
-    // min-height: 976px;
     .form-login {
-        // height: 1080px;
-        margin-top: 444px;
-        margin-left: 135px;
-        padding-bottom: 320px;
+        @include media-breakpoint-up(xl){
+            margin-top: 444px;
+            margin-left: 135px;
+            padding-bottom: 320px;
+        }
+        @include media-breakpoint-down(sm){
+            margin-top: 22px;
+            margin-left: 0;
+        }
         .form-inline{
             input {
-                font-size: 26px;
-                width:427px;
-                height: 79px;
-                margin-right: 6px;
-                margin-bottom: 8px;
+                @include media-breakpoint-up(lg){
+                    font-size: 26px;
+                    width:427px;
+                    height: 79px;
+                    margin-right: 6px;
+                    margin-bottom: 8px;
+                }
             }
         }
         button{
-            color: $cinza;
-            font-size: 26px;
-            font-weight: bold;
-            width: 277px;
-            height: 82px;
+            @include media-breakpoint-up(lg){
+                color: $cinza;
+                font-size: 26px;
+                font-weight: bold;
+                width: 277px;
+                height: 82px;
+            }
         }
     }
 }
 .navbar-login {
-    margin-top: 114px;
-    margin-left: 135px;
+    @include media-breakpoint-up(xl){
+        margin-top: 114px;
+        margin-left: 135px;
+    }
+    @include media-breakpoint-down(sm){
+        margin-top: 250px;
+        margin-left: 0px;
+    }
     .nav-item {
         margin-right: 10px;
         .nav-link {

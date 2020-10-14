@@ -2,10 +2,8 @@
     background-image: url('../img/bg_login_2.png');
     background-repeat: no-repeat;
     background-size: contain;
-    // height: 1080px;
-    // min-height: 976px;
     .form-login {
-        // height: 1080px;
+        
         margin-top: 72px;
         margin-left: 135px;
         padding-bottom: 478px;
@@ -28,15 +26,15 @@
             transform: skewX(-10deg);
         }
     }
-}
-.navbar-login {
-    margin-top: 224px;
-    margin-left: 135px;
-    .nav-item {
-        margin-right: 10px;
-        .nav-link {
-            color: $white;
-            font-size: 21px;
+    .navbar-login {
+        margin-top: 224px;
+        margin-left: 135px;
+        .nav-item {
+            margin-right: 10px;
+            .nav-link {
+                color: $white;
+                font-size: 21px;
+            }
         }
     }
 }
