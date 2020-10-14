@@ -7602,8 +7602,22 @@ a.text-dark:hover, a.text-dark:focus {
   @media (min-width: 1200px) {
     .login_2 .form-login {
       margin-top: 72px;
-      margin-left: 135px;
-      padding-bottom: 478px; } }
+      margin-left: 180px;
+      padding-bottom: 534px; } }
+  @media (max-width: 1199.98px) {
+    .login_2 .form-login {
+      margin-top: 30px;
+      margin-left: 108px;
+      padding-bottom: 330px; } }
+  @media (max-width: 991.98px) {
+    .login_2 .form-login {
+      margin-top: 20px;
+      margin-left: 82px;
+      padding-bottom: 266px; } }
+  @media (max-width: 767.98px) {
+    .login_2 .form-login {
+      margin-top: 275px;
+      margin-left: 60px; } }
   @media (max-width: 575.98px) {
     .login_2 .form-login {
       margin-top: 184px;
@@ -7615,6 +7629,16 @@ a.text-dark:hover, a.text-dark:focus {
     margin-right: 6px;
     margin-bottom: 8px;
     transform: skewX(-10deg); }
+    @media (max-width: 1199.98px) {
+      .login_2 .form-login .form-group input {
+        font-size: 14px;
+        width: 336px;
+        height: 40px; } }
+    @media (max-width: 991.98px) {
+      .login_2 .form-login .form-group input {
+        font-size: 14px;
+        width: 336px;
+        height: 30px; } }
     @media (max-width: 575.98px) {
       .login_2 .form-login .form-group input {
         font-size: 13px;
@@ -7629,6 +7653,16 @@ a.text-dark:hover, a.text-dark:focus {
     width: 277px;
     height: 63px;
     transform: skewX(-10deg); }
+    @media (max-width: 1199.98px) {
+      .login_2 .form-login button {
+        font-size: 18px;
+        width: 140px;
+        height: 40px; } }
+    @media (max-width: 991.98px) {
+      .login_2 .form-login button {
+        font-size: 14px;
+        width: 140px;
+        height: 30px; } }
     @media (max-width: 575.98px) {
       .login_2 .form-login button {
         font-size: 13px;
@@ -7636,7 +7670,19 @@ a.text-dark:hover, a.text-dark:focus {
   @media (min-width: 1200px) {
     .login_2 .navbar-login {
       margin-top: 224px;
-      margin-left: 135px; } }
+      margin-left: 180px; } }
+  @media (max-width: 1199.98px) {
+    .login_2 .navbar-login {
+      margin-top: 138px;
+      margin-left: 108px; } }
+  @media (max-width: 991.98px) {
+    .login_2 .navbar-login {
+      margin-top: 115px;
+      margin-left: 82px; } }
+  @media (max-width: 767.98px) {
+    .login_2 .navbar-login {
+      margin-top: 150px;
+      margin-left: 60px; } }
   @media (max-width: 575.98px) {
     .login_2 .navbar-login {
       margin-top: 100px;
@@ -7646,6 +7692,10 @@ a.text-dark:hover, a.text-dark:focus {
     @media (max-width: 575.98px) {
       .login_2 .navbar-login .nav-item {
         margin-right: 5px; } }
+    @media (max-width: 767.98px) {
+      .login_2 .navbar-login .nav-item img {
+        width: 24px;
+        height: 24px; } }
     @media (max-width: 575.98px) {
       .login_2 .navbar-login .nav-item img {
         width: 20px;
@@ -7653,6 +7703,9 @@ a.text-dark:hover, a.text-dark:focus {
     .login_2 .navbar-login .nav-item .nav-link {
       color: #fff;
       font-size: 21px; }
+      @media (max-width: 767.98px) {
+        .login_2 .navbar-login .nav-item .nav-link {
+          font-size: 16px; } }
       @media (max-width: 575.98px) {
         .login_2 .navbar-login .nav-item .nav-link {
           font-size: 12px; } }
