@@ -32,21 +32,59 @@
     img {
         width: 84px;
         height: 84px;
+        @include media-breakpoint-between(md, lg){
+            &:first-child{
+                margin-right: 5px;
+            }
+        }
+        @include media-breakpoint-only(md){
+            width: 64px;
+            height: 64px;
+        }
+    }
+    @include media-breakpoint-between(md, lg){
+        margin-right: 5px;
+    }
+    @include media-breakpoint-between(xs, sm){
+        margin-bottom: 5px;
     }
 }
 .caixa-data-horario {
-    width: 221px;
+    // width: 221px;
     font-size: 19px;
     background-color: $white;
     color: $verde;
     padding:28px 36px 29px 55px;
     border-radius: 15px ;
+    @include media-breakpoint-only(lg){
+        padding:15px 10px 15px 25px;
+        margin-right: 5px;
+    }
+    @include media-breakpoint-only(md){
+        padding:5px 10px 5px 25px;
+        margin-right: 5px;
+    }
+    @include media-breakpoint-between(xs, sm){
+        margin-bottom: 5px;
+    }
 }
 .caixa-palestrantes {
     width: 607px;
     padding:13px 36px 10px 55px;
     border-radius: 15px ;
     background-color: $verde;
+    @include media-breakpoint-only(md){
+        padding:3px 10px 3px 15px;
+    }
+    @include media-breakpoint-only(sm){
+        flex: 1 1 auto;
+    }
+    @include media-breakpoint-only(sm){
+        margin-bottom: 5px;
+    }
+    @include media-breakpoint-only(xs){
+        margin-bottom: 5px;
+    }
     span {
         font-weight: bold;
         font-size: 21px;
@@ -77,11 +115,17 @@
     }
 }
 .caixa-btn-assistir {
-    width: 168px;
+    // width: 168px;
     button {
         border-radius: 12px;
         font-weight: bold;
         padding: 27px 18px 26px 32px;
+        @include media-breakpoint-only(lg){
+            padding:16px 18px 16px 18px;
+        }
+        @include media-breakpoint-only(md){
+            padding:6px 18px 6px 18px;
+        }
         img {
             width: 32px;
             height: 29px;

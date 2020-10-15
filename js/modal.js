@@ -7,6 +7,8 @@
     });
 
     $anchors = $('.navbar-opcoes .nav-link');
+    // o navbar deve ter nas tags de anchor um atributo data-target com o id do modal alvo
+    // ex: <a data-target="#modalFormulario">Formulario</a> 
     $anchors.on('click', function(){
         $target = this.dataset.target;
         $($target).modal('show')

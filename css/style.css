@@ -7368,20 +7368,57 @@ a.text-dark:hover, a.text-dark:focus {
 .icones-fotos img {
   width: 84px;
   height: 84px; }
+  @media (min-width: 768px) and (max-width: 1199.98px) {
+    .icones-fotos img:first-child {
+      margin-right: 5px; } }
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .icones-fotos img {
+      width: 64px;
+      height: 64px; } }
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  .icones-fotos {
+    margin-right: 5px; } }
+
+@media (max-width: 767.98px) {
+  .icones-fotos {
+    margin-bottom: 5px; } }
 
 .caixa-data-horario {
-  width: 221px;
   font-size: 19px;
   background-color: #fff;
   color: #37691E;
   padding: 28px 36px 29px 55px;
   border-radius: 15px; }
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .caixa-data-horario {
+      padding: 15px 10px 15px 25px;
+      margin-right: 5px; } }
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .caixa-data-horario {
+      padding: 5px 10px 5px 25px;
+      margin-right: 5px; } }
+  @media (max-width: 767.98px) {
+    .caixa-data-horario {
+      margin-bottom: 5px; } }
 
 .caixa-palestrantes {
   width: 607px;
   padding: 13px 36px 10px 55px;
   border-radius: 15px;
   background-color: #37691E; }
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .caixa-palestrantes {
+      padding: 3px 10px 3px 15px; } }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .caixa-palestrantes {
+      flex: 1 1 auto; } }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .caixa-palestrantes {
+      margin-bottom: 5px; } }
+  @media (max-width: 575.98px) {
+    .caixa-palestrantes {
+      margin-bottom: 5px; } }
   .caixa-palestrantes span {
     font-weight: bold;
     font-size: 21px;
@@ -7405,15 +7442,19 @@ a.text-dark:hover, a.text-dark:focus {
     .caixa-biografia button img {
       margin-right: 15px; }
 
-.caixa-btn-assistir {
-  width: 168px; }
-  .caixa-btn-assistir button {
-    border-radius: 12px;
-    font-weight: bold;
-    padding: 27px 18px 26px 32px; }
-    .caixa-btn-assistir button img {
-      width: 32px;
-      height: 29px; }
+.caixa-btn-assistir button {
+  border-radius: 12px;
+  font-weight: bold;
+  padding: 27px 18px 26px 32px; }
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .caixa-btn-assistir button {
+      padding: 16px 18px 16px 18px; } }
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .caixa-btn-assistir button {
+      padding: 6px 18px 6px 18px; } }
+  .caixa-btn-assistir button img {
+    width: 32px;
+    height: 29px; }
 
 .video {
   background-color: #000;
