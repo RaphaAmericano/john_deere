@@ -7310,6 +7310,9 @@ a.text-dark:hover, a.text-dark:focus {
     .navbar-collapse .navbar-idiomas {
       margin-left: auto;
       margin-right: 84px; } }
+  @media (max-width: 575.98px) {
+    .navbar-collapse .navbar-idiomas .nav-item {
+      min-width: 140px; } }
   .navbar-collapse .navbar-idiomas .nav-item img {
     margin-right: 11px;
     width: 31px;

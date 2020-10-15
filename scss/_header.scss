@@ -73,7 +73,9 @@
             margin-right: 84px;
         }
         .nav-item {
-            
+            @include media-breakpoint-only(xs){
+                min-width: 140px;
+            }
             img {
                 margin-right: 11px;
                 @include media-breakpoint-down(lg){
