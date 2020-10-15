@@ -7764,7 +7764,7 @@ a.text-dark:hover, a.text-dark:focus {
   background-size: cover;
   background-repeat: no-repeat;
   padding: 487px 0 487px 0;
-  background-position: 0px 0px; }
+  background-position: center; }
   @media (max-width: 1199.98px) {
     .hero_live {
       padding: 116px 0 492px 0; } }
