@@ -1,4 +1,8 @@
 .faixa-download {
+    @include media-breakpoint-up(sm){
+        padding-left: 94px;
+        padding-right: 94px;
+    }
     .header-download {
         margin-bottom: 31px;
     }
@@ -86,6 +90,9 @@
             
             strong, small {
                 font-size: 16px;
+                @include media-breakpoint-up(sm){
+                    font-size: 20px;
+                }
             }
             strong{
                 color: $verde;
