@@ -1,7 +1,15 @@
 .faixa-download {
-    @include media-breakpoint-up(sm){
+    @include media-breakpoint-between(md, lg){
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    @include media-breakpoint-down(sm){
         padding-left: 94px;
         padding-right: 94px;
+    }
+    @include media-breakpoint-down(xs){
+        padding-left: 15px;
+        padding-right: 15px;
     }
     .header-download {
         margin-bottom: 31px;
@@ -10,10 +18,11 @@
         padding-top: 27px;
         padding-bottom: 22px;
         background-color: $white;
-        
         @include media-breakpoint-up(md){
-            padding-left: 273px;
-            padding-right: 273px;
+            // padding-left: 273px;
+            // padding-right: 273px;
+            padding-left: 47px;
+            padding-right: 47px;
             padding-top: 122px;
             padding-bottom: 195px;
             margin-left: 80px;
@@ -67,6 +76,10 @@
         margin-left:25px;
         margin-right:25px;
         margin-bottom: 18px;
+        @include media-breakpoint-only(md){
+            margin-left: 0;
+            margin-right: 0;
+        }
         @include media-breakpoint-up(sm){
             margin-bottom: 40px;
         }
@@ -90,7 +103,10 @@
             
             strong, small {
                 font-size: 16px;
-                @include media-breakpoint-up(sm){
+                @include media-breakpoint-only(md){
+                    font-size: 16px;
+                }
+                @include media-breakpoint-only(sm){
                     font-size: 20px;
                 }
             }

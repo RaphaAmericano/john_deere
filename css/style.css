@@ -8261,10 +8261,20 @@ a.text-dark:hover, a.text-dark:focus {
           padding-top: 20px;
           padding-bottom: 16px; } }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  .faixa-download {
+    padding-left: 0px;
+    padding-right: 0px; } }
+
+@media (max-width: 767.98px) {
   .faixa-download {
     padding-left: 94px;
     padding-right: 94px; } }
+
+@media (max-width: 575.98px) {
+  .faixa-download {
+    padding-left: 15px;
+    padding-right: 15px; } }
 
 .faixa-download .header-download {
   margin-bottom: 31px; }
@@ -8275,8 +8285,8 @@ a.text-dark:hover, a.text-dark:focus {
   background-color: #fff; }
   @media (min-width: 768px) {
     .faixa-download .content-download {
-      padding-left: 273px;
-      padding-right: 273px;
+      padding-left: 47px;
+      padding-right: 47px;
       padding-top: 122px;
       padding-bottom: 195px;
       margin-left: 80px;
@@ -8316,6 +8326,10 @@ a.text-dark:hover, a.text-dark:focus {
   margin-left: 25px;
   margin-right: 25px;
   margin-bottom: 18px; }
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .faixa-download .item-download {
+      margin-left: 0;
+      margin-right: 0; } }
   @media (min-width: 576px) {
     .faixa-download .item-download {
       margin-bottom: 40px; } }
@@ -8333,7 +8347,10 @@ a.text-dark:hover, a.text-dark:focus {
     margin-left: 26px; }
     .faixa-download .item-download .info-download strong, .faixa-download .item-download .info-download small {
       font-size: 16px; }
-      @media (min-width: 576px) {
+      @media (min-width: 768px) and (max-width: 991.98px) {
+        .faixa-download .item-download .info-download strong, .faixa-download .item-download .info-download small {
+          font-size: 16px; } }
+      @media (min-width: 576px) and (max-width: 767.98px) {
         .faixa-download .item-download .info-download strong, .faixa-download .item-download .info-download small {
           font-size: 20px; } }
     .faixa-download .item-download .info-download strong {
