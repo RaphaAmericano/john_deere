@@ -160,6 +160,11 @@
 
 .modal-biografia {
     padding-bottom: 100px;
+    .bloco-info-palestrante{
+        @include media-breakpoint-only(md){
+            margin-bottom: 0.5rem;
+        }
+    }
     .modal-title {
         color: $amarelo;
         h5 {
@@ -179,6 +184,9 @@
         width: 195px;
         height: 195px;
         margin-right: 24px;
+        @include media-breakpoint-down(sm){
+            margin-bottom: 0.5rem;
+        }
     }
     h5 {
         font-size: 21px;

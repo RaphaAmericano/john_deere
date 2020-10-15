@@ -1,6 +1,7 @@
 'use strict'
 const gulp = require('gulp')
 const sass = require('gulp-sass');
+const cleanCss = require('gulp-clean-css');
 const browserSync = require('browser-sync').create();
 const concat = require('gulp-concat');
 
@@ -13,7 +14,7 @@ function scss() {
           '/node_modules/bootstrap/scss']
       }).on('error', sass.logError))
       .pipe(concat('style.css'))
-      //.pipe(cleanCss())
+      // .pipe(cleanCss())
       .pipe(gulp.dest('./css'))
       .pipe(browserSync.stream())
 };

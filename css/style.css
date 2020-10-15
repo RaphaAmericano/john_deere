@@ -7479,6 +7479,9 @@ a.text-dark:hover, a.text-dark:focus {
 
 .modal-biografia {
   padding-bottom: 100px; }
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .modal-biografia .bloco-info-palestrante {
+      margin-bottom: 0.5rem; } }
   .modal-biografia .modal-title {
     color: #FEE200; }
     .modal-biografia .modal-title h5 {
@@ -7494,6 +7497,9 @@ a.text-dark:hover, a.text-dark:focus {
     width: 195px;
     height: 195px;
     margin-right: 24px; }
+    @media (max-width: 767.98px) {
+      .modal-biografia .foto-palestrante {
+        margin-bottom: 0.5rem; } }
   .modal-biografia h5 {
     font-size: 21px;
     color: #FEE200;
