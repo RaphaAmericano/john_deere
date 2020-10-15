@@ -7840,10 +7840,16 @@ a.text-dark:hover, a.text-dark:focus {
   .qa_alternativo .form-inline label {
     font-size: 64px;
     color: #2A2E32; }
+  @media (min-width: 768px) {
+    .qa_alternativo {
+      margin-left: 55px;
+      margin-right: 55px;
+      padding-left: 57px;
+      padding-right: 57px; } }
   @media (min-width: 576px) {
     .qa_alternativo {
-      margin-left: 155px;
-      margin-right: 155px;
+      margin-left: 23px;
+      margin-right: 23px;
       padding-top: 44px;
       padding-bottom: 44px;
       padding-left: 57px;
@@ -7893,6 +7899,12 @@ a.text-dark:hover, a.text-dark:focus {
       padding: 90px 193px 91px 200px;
       margin-left: 80px;
       margin-right: 80px; } }
+  @media (max-width: 1199.98px) {
+    .sobre_alternativo {
+      padding: 34px 80px 16px 82px; } }
+  @media (max-width: 991.98px) {
+    .sobre_alternativo {
+      padding: 90px 84px 91px 84px; } }
   .sobre_alternativo p {
     color: #000;
     font-size: 19px;
@@ -7922,6 +7934,22 @@ a.text-dark:hover, a.text-dark:focus {
   padding-right: 193px;
   margin-left: 80px;
   margin-right: 80px; }
+  @media (max-width: 1199.98px) {
+    .agenda {
+      padding-top: 81px;
+      padding-bottom: 45px;
+      padding-left: 40px;
+      padding-right: 40px;
+      margin-left: 80px;
+      margin-right: 80px; } }
+  @media (max-width: 991.98px) {
+    .agenda {
+      padding-top: 81px;
+      padding-bottom: 45px;
+      padding-left: 53px;
+      padding-right: 53px;
+      margin-left: 80px;
+      margin-right: 80px; } }
   @media (max-width: 767.98px) {
     .agenda {
       padding-top: 81px;
@@ -7947,6 +7975,9 @@ a.text-dark:hover, a.text-dark:focus {
     font-size: 43px;
     color: #000;
     font-weight: bold; }
+    @media (max-width: 767.98px) {
+      .agenda h5 {
+        display: block; } }
   .agenda span a {
     font-size: 38px;
     font-weight: bold;
@@ -7974,24 +8005,45 @@ a.text-dark:hover, a.text-dark:focus {
     color: #fff;
     border-radius: 10px;
     background-color: #2A2E32; }
+    @media (max-width: 991.98px) {
+      .linha-agenda .conteudo-agenda span {
+        width: 66px;
+        height: 66px; } }
     @media (max-width: 575.98px) {
       .linha-agenda .conteudo-agenda span {
         width: 67px;
         height: 67px; } }
-    .linha-agenda .conteudo-agenda span strong {
-      font-size: 27px; }
-      @media (min-width: 576px) {
-        .linha-agenda .conteudo-agenda span strong {
-          font-size: 34px; } }
-    .linha-agenda .conteudo-agenda span small {
-      font-size: 17px; }
-      @media (min-width: 576px) {
-        .linha-agenda .conteudo-agenda span small {
-          font-size: 22px; } }
-  @media (min-width: 576px) {
-    .linha-agenda .conteudo-agenda img {
-      width: 99px;
-      height: 99px; } }
+    @media (max-width: 1199.98px) {
+      .linha-agenda .conteudo-agenda span strong {
+        font-size: 32px; } }
+    @media (max-width: 991.98px) {
+      .linha-agenda .conteudo-agenda span strong {
+        font-size: 28px; } }
+    @media (max-width: 767.98px) {
+      .linha-agenda .conteudo-agenda span strong {
+        font-size: 28px; } }
+    @media (max-width: 575.98px) {
+      .linha-agenda .conteudo-agenda span strong {
+        font-size: 27px; } }
+    @media (max-width: 1199.98px) {
+      .linha-agenda .conteudo-agenda span small {
+        font-size: 22px; } }
+    @media (max-width: 991.98px) {
+      .linha-agenda .conteudo-agenda span small {
+        font-size: 20px; } }
+    @media (max-width: 767.98px) {
+      .linha-agenda .conteudo-agenda span small {
+        font-size: 20px; } }
+    @media (max-width: 575.98px) {
+      .linha-agenda .conteudo-agenda span small {
+        font-size: 17px; } }
+  .linha-agenda .conteudo-agenda img {
+    width: 99px;
+    height: 99px; }
+    @media (max-width: 991.98px) {
+      .linha-agenda .conteudo-agenda img {
+        width: 66px;
+        height: 66px; } }
   .linha-agenda .titulo-agenda {
     padding: 0 34px; }
     @media (max-width: 767.98px) {
@@ -8041,10 +8093,15 @@ a.text-dark:hover, a.text-dark:focus {
     margin-bottom: 68px; }
     @media (max-width: 767.98px) {
       .faixa-verde .conteudo-faixa-verde {
-        margin-top: 60px;
-        margin-bottom: 95px;
-        padding-right: 110px;
-        padding-left: 110px; } }
+        padding-right: 0;
+        padding-left: 0;
+        margin-bottom: 100px; } }
+    @media (max-width: 575.98px) {
+      .faixa-verde .conteudo-faixa-verde {
+        margin-top: 40px;
+        margin-bottom: 94px;
+        padding-left: 0;
+        padding-right: 0; } }
     .faixa-verde .conteudo-faixa-verde h6 {
       color: #fff;
       font-size: 31px;
@@ -8203,7 +8260,7 @@ a.text-dark:hover, a.text-dark:focus {
   padding-top: 27px;
   padding-bottom: 22px;
   background-color: #fff; }
-  @media (min-width: 576px) {
+  @media (min-width: 768px) {
     .faixa-download .content-download {
       padding-left: 273px;
       padding-right: 273px;
@@ -8221,22 +8278,25 @@ a.text-dark:hover, a.text-dark:focus {
     font-size: 43px;
     color: #000;
     font-weight: bold; }
+    @media (max-width: 575.98px) {
+      .faixa-download .content-download h5 {
+        font-size: 29px; } }
   .faixa-download .content-download span a {
     font-size: 38px;
     font-weight: bold;
     color: #B8B8B8; }
     .faixa-download .content-download span a.active {
       color: #FEE200; }
-  @media (max-width: 575.98px) {
+    @media (max-width: 575.98px) {
+      .faixa-download .content-download span a {
+        font-size: 24px; } }
+  @media (max-width: 767.98px) {
     .faixa-download .content-download h5, .faixa-download .content-download span {
       text-align: center; }
     .faixa-download .content-download h5 {
-      display: block;
-      font-size: 29px; }
-    .faixa-download .content-download span {
       display: block; }
-      .faixa-download .content-download span a {
-        font-size: 24px; } }
+    .faixa-download .content-download span {
+      display: block; } }
 
 .faixa-download .item-download {
   background-color: #ECECEC;
