@@ -175,6 +175,11 @@
     }
     .botao-agenda {
         margin-left: auto;
+        @include media-breakpoint-only(sm){
+            margin-left: auto;
+            margin-right: auto;
+
+        }
         .btn-agenda {
             width: 207px;
             height: 67px;

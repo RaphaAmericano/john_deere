@@ -7303,6 +7303,9 @@ a.text-dark:hover, a.text-dark:focus {
 
 .navbar-collapse .navbar-idiomas {
   margin-top: 61.2px; }
+  @media (min-width: 576px) and (max-width: 991.98px) {
+    .navbar-collapse .navbar-idiomas {
+      margin-bottom: 1.5rem; } }
   @media (min-width: 1200px) {
     .navbar-collapse .navbar-idiomas {
       margin-left: auto;
@@ -7717,11 +7720,17 @@ a.text-dark:hover, a.text-dark:focus {
   background-image: url("../img/bg_regressiva.png");
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 391px 0 392px 0;
+  padding: 391px 551px 391px 551px;
   background-position: 0px 0px; }
+  @media (min-width: 768px) and (max-width: 1199.98px) {
+    .hero_regressiva {
+      padding: 85px 90px 85px 90px; } }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .hero_regressiva {
+      padding: 85px 64px 85px 64px; } }
   @media (max-width: 575.98px) {
     .hero_regressiva {
-      padding: 96px 0 96px 0; } }
+      padding: 85px 76px 85px 76px; } }
   .hero_regressiva h2 {
     color: #fff;
     font-size: 43px;
@@ -7734,12 +7743,10 @@ a.text-dark:hover, a.text-dark:focus {
     color: #fff;
     margin-left: auto;
     margin-right: auto;
-    padding: 17px 23px;
-    width: 816px; }
+    padding: 17px 23px; }
     @media (max-width: 767.98px) {
       .hero_regressiva .contador {
-        padding: 0 30px 0 30px;
-        width: 348px; } }
+        padding: 0 30px 0 30px; } }
     .hero_regressiva .contador strong {
       font-size: 43px; }
       @media (min-width: 576px) {
@@ -8077,6 +8084,10 @@ a.text-dark:hover, a.text-dark:focus {
           font-size: 29px; } }
   .linha-agenda .botao-agenda {
     margin-left: auto; }
+    @media (min-width: 576px) and (max-width: 767.98px) {
+      .linha-agenda .botao-agenda {
+        margin-left: auto;
+        margin-right: auto; } }
     .linha-agenda .botao-agenda .btn-agenda {
       width: 207px;
       height: 67px;

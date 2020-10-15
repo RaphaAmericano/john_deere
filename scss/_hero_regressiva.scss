@@ -2,11 +2,20 @@
     background-image: url('../img/bg_regressiva.png');
     background-size: cover;
     background-repeat: no-repeat;
-    @include media-breakpoint-down(xs){
-        padding: 96px 0 96px 0;
+    @include media-breakpoint-only(lx){
+        padding: 391px 551px 391px 551px;
+    }
+    @include media-breakpoint-between(md, lg){
+        padding: 85px 90px 85px 90px;
+    }
+    @include media-breakpoint-only(sm){
+        padding: 85px 64px 85px 64px;
+    }
+    @include media-breakpoint-only(xs){
+        padding: 85px 76px 85px 76px;
     }
     @include media-breakpoint-up(lx){
-        padding: 391px 0 392px 0;
+        // padding: 391px 0 392px 0;
         background-position: 0px 0px;
     }
     h2 {
@@ -23,10 +32,10 @@
         margin-left: auto;
         margin-right: auto;
         padding: 17px 23px;
-        width: 816px;
+        // width: 816px;
         @include media-breakpoint-down(sm){
             padding: 0 30px 0 30px;
-            width: 348px;
+            // width: 348px;
         }
         strong {
             font-size: 43px;

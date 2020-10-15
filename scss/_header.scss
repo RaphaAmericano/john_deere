@@ -65,6 +65,9 @@
     }
     .navbar-idiomas {
         margin-top: 61.2px;
+        @include media-breakpoint-between(sm, md){
+            margin-bottom: 1.5rem;
+        }
         @include media-breakpoint-up(xl){
             margin-left: auto;
             margin-right: 84px;
