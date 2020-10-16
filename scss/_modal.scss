@@ -67,6 +67,9 @@
     @include media-breakpoint-between(xs, sm){
         margin-bottom: 5px;
     }
+    @include media-breakpoint-only(xs){
+        padding:25px 10px 29px 12px;
+    }
 }
 .caixa-palestrantes {
     width: 607px;
@@ -202,6 +205,10 @@
         margin-right: 24px;
         @include media-breakpoint-down(sm){
             margin-bottom: 0.5rem;
+        }
+        @include media-breakpoint-down(xs){
+            width: 95px;
+            height: 95px;
         }
     }
     h5 {
