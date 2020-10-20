@@ -7376,7 +7376,7 @@ a.text-dark:hover, a.text-dark:focus {
 .icones-fotos img {
   width: 84px;
   height: 84px; }
-  @media (min-width: 768px) and (max-width: 1199.98px) {
+  @media (min-width: 768px) {
     .icones-fotos img:first-child {
       margin-right: 5px; } }
   @media (min-width: 768px) and (max-width: 991.98px) {
@@ -7396,7 +7396,7 @@ a.text-dark:hover, a.text-dark:focus {
   font-size: 19px;
   background-color: #fff;
   color: #37691E;
-  padding: 28px 36px 29px 55px;
+  padding: 28px 36px;
   border-radius: 15px; }
   @media (min-width: 992px) and (max-width: 1199.98px) {
     .caixa-data-horario {
@@ -7456,7 +7456,7 @@ a.text-dark:hover, a.text-dark:focus {
 .caixa-btn-assistir button {
   border-radius: 12px;
   font-weight: bold;
-  padding: 27px 18px 26px 32px; }
+  padding: 27px 18px 26px 18px; }
   @media (min-width: 992px) and (max-width: 1199.98px) {
     .caixa-btn-assistir button {
       padding: 16px 18px 16px 18px; } }
@@ -7465,7 +7465,8 @@ a.text-dark:hover, a.text-dark:focus {
       padding: 6px 18px 6px 18px; } }
   .caixa-btn-assistir button img {
     width: 32px;
-    height: 29px; }
+    height: 29px;
+    margin-right: 10px; }
 
 .video {
   background-color: #000;
@@ -8471,13 +8472,8 @@ body {
 .bg-mundo {
   background-repeat: no-repeat;
   background-size: cover;
-  height: 1080px; }
-  .bg-mundo.bg-mundo-br {
-    background-image: url("./../img/bg_mapa_mundi_br.png"); }
-  .bg-mundo.bg-mundo-us {
-    background-image: url("./../img/bg_mapa_mundi_us.png"); }
-  .bg-mundo.bg-mundo-us {
-    background-image: url("./../img/bg_mapa_mundi_es.png"); }
+  height: 1080px;
+  background-image: url("./../img/bg_regressiva.png"); }
 
 .padding-content {
   padding: 0 80px; }

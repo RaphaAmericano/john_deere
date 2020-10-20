@@ -34,15 +34,16 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 1080px;
-    &.bg-mundo-br{
-        background-image: url('./../img/bg_mapa_mundi_br.png');
-    }
-    &.bg-mundo-us {
-        background-image: url('./../img/bg_mapa_mundi_us.png');   
-    }
-    &.bg-mundo-us {
-        background-image: url('./../img/bg_mapa_mundi_es.png');   
-    }
+    background-image: url('./../img/bg_regressiva.png');
+    // &.bg-mundo-br{
+    //     background-image: url('./../img/bg_mapa_mundi_br.png');
+    // }
+    // &.bg-mundo-us {
+    //     background-image: url('./../img/bg_mapa_mundi_us.png');   
+    // }
+    // &.bg-mundo-us {
+    //     background-image: url('./../img/bg_mapa_mundi_es.png');   
+    // }
 }
 
 
