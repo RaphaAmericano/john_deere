@@ -7574,7 +7574,13 @@ a.text-dark:hover, a.text-dark:focus {
     .hero {
       padding: 49px 75px 76px 64px;
       background-position: -145px 0px; } }
-  @media (min-width: 768px) and (max-width: 1199.98px) {
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .hero {
+      background-position: -200px 0px; } }
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .hero {
+      background-position: -400px 0px; } }
+  @media (min-width: 576px) and (max-width: 767.98px) {
     .hero {
       background-position: -200px 0px; } }
   @media (min-width: 1200px) {
@@ -7591,14 +7597,22 @@ a.text-dark:hover, a.text-dark:focus {
   .hero .contador {
     color: #fff;
     background-color: #2A2D32;
-    padding: 17px 23px;
+    padding: 12px 23px;
     width: 342px; }
     @media (max-width: 767.98px) {
       .hero .contador {
         padding: 9px 11px 5px 12px;
         width: 180px; } }
-    .hero .contador small {
-      font-size: 12px; }
+    .hero .contador .item {
+      text-align: center;
+      line-height: 30px; }
+      .hero .contador .item strong {
+        font-size: 32px; }
+      .hero .contador .item small {
+        font-size: 18px; }
+        @media (max-width: 575.98px) {
+          .hero .contador .item small {
+            font-size: 12px; } }
 
 .login {
   background-image: url("../img/bg_login_1.png");
@@ -7887,7 +7901,6 @@ a.text-dark:hover, a.text-dark:focus {
           font-size: 42px; } }
 
 .sobre {
-  margin-top: -50px;
   border-radius: 25px 25px 0 0;
   background-color: transparent;
   padding: 34px 26px 16px 28px; }
@@ -8041,7 +8054,8 @@ a.text-dark:hover, a.text-dark:focus {
       padding-left: 53px;
       padding-right: 53px;
       margin-left: 80px;
-      margin-right: 80px; } }
+      margin-right: 80px;
+      margin-top: 0; } }
   @media (max-width: 767.98px) {
     .agenda {
       padding-top: 81px;
@@ -8105,30 +8119,32 @@ a.text-dark:hover, a.text-dark:focus {
       .linha-agenda .conteudo-agenda span {
         width: 67px;
         height: 67px; } }
-    @media (max-width: 1199.98px) {
-      .linha-agenda .conteudo-agenda span strong {
-        font-size: 32px; } }
-    @media (max-width: 991.98px) {
-      .linha-agenda .conteudo-agenda span strong {
-        font-size: 28px; } }
-    @media (max-width: 767.98px) {
-      .linha-agenda .conteudo-agenda span strong {
-        font-size: 28px; } }
-    @media (max-width: 575.98px) {
-      .linha-agenda .conteudo-agenda span strong {
-        font-size: 27px; } }
-    @media (max-width: 1199.98px) {
-      .linha-agenda .conteudo-agenda span small {
-        font-size: 22px; } }
-    @media (max-width: 991.98px) {
-      .linha-agenda .conteudo-agenda span small {
-        font-size: 20px; } }
-    @media (max-width: 767.98px) {
-      .linha-agenda .conteudo-agenda span small {
-        font-size: 20px; } }
-    @media (max-width: 575.98px) {
-      .linha-agenda .conteudo-agenda span small {
-        font-size: 17px; } }
+    .linha-agenda .conteudo-agenda span strong {
+      font-size: 38px; }
+      @media (max-width: 1199.98px) {
+        .linha-agenda .conteudo-agenda span strong {
+          font-size: 32px; } }
+      @media (max-width: 991.98px) {
+        .linha-agenda .conteudo-agenda span strong {
+          font-size: 28px;
+          line-height: 36px; } }
+      @media (max-width: 767.98px) {
+        .linha-agenda .conteudo-agenda span strong {
+          font-size: 28px; } }
+      @media (max-width: 575.98px) {
+        .linha-agenda .conteudo-agenda span strong {
+          font-size: 27px; } }
+    .linha-agenda .conteudo-agenda span small {
+      font-size: 22px; }
+      @media (max-width: 991.98px) {
+        .linha-agenda .conteudo-agenda span small {
+          font-size: 18px; } }
+      @media (max-width: 767.98px) {
+        .linha-agenda .conteudo-agenda span small {
+          font-size: 20px; } }
+      @media (max-width: 575.98px) {
+        .linha-agenda .conteudo-agenda span small {
+          font-size: 17px; } }
   .linha-agenda .conteudo-agenda img {
     width: 99px;
     height: 99px; }

@@ -7,7 +7,13 @@
         padding: 49px 75px 76px 64px;
         background-position: -145px 0px;
     }
-    @include media-breakpoint-between(md, lg){
+    @include media-breakpoint-only(lg){
+        background-position: -200px 0px;
+    }
+    @include media-breakpoint-only(md){
+        background-position: -400px 0px;
+    }
+    @include media-breakpoint-only(sm){
         background-position: -200px 0px;
     }
     @include media-breakpoint-up(xl){
@@ -25,17 +31,30 @@
     .contador{
         color: $white;
         background-color: $cinza2;
-        padding: 17px 23px;
+        padding: 12px 23px;
         width: 342px;
         @include media-breakpoint-down(sm){
             padding: 9px 11px 5px 12px;
             width: 180px;
         }
-        strong {
+        .item {
+            text-align: center;
+            @include media-breakpoint-only(lx){
+                line-height: 30px;
+            }
             
-        }
-        small {
-            font-size: 12px;
+            strong {
+                font-size: 32px;
+                @include media-breakpoint-only(lg){
+
+                }
+            }
+            small {
+                font-size: 18px;
+                @include media-breakpoint-only(xs){
+                    font-size: 12px;
+                }
+            }
         }
     }
 }
