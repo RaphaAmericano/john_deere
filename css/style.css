@@ -7888,7 +7888,7 @@ a.text-dark:hover, a.text-dark:focus {
 .sobre {
   margin-top: -50px;
   border-radius: 25px 25px 0 0;
-  background-color: #37691E;
+  background-color: transparent;
   padding: 34px 26px 16px 28px; }
   @media (min-width: 1200px) {
     .sobre {
@@ -7896,7 +7896,7 @@ a.text-dark:hover, a.text-dark:focus {
       margin-left: 80px;
       margin-right: 80px; } }
   .sobre p {
-    color: #fff;
+    color: #2A2E32;
     font-size: 19px;
     font-weight: lighter; }
     @media (min-width: 992px) {
@@ -7905,7 +7905,7 @@ a.text-dark:hover, a.text-dark:focus {
         margin-bottom: 91px; } }
   .sobre h3 {
     font-size: 43px;
-    color: #FEE200;
+    color: #2A2E32;
     font-weight: bold; }
     @media (max-width: 575.98px) {
       .sobre h3 {

@@ -1,7 +1,8 @@
 .sobre {
     margin-top: -50px;  
     border-radius: 25px 25px 0 0 ;  
-    background-color: $verde;
+    // background-color: $verde;
+    background-color: transparent;
     padding: 34px 26px 16px 28px;
     @include media-breakpoint-up(xl) {
         padding: 90px 193px 91px 200px;
@@ -9,7 +10,8 @@
         margin-right: 80px;
     }
     p{
-        color: $white;
+        // color: $white;
+        color: $cinza;
         font-size: 19px;
         font-weight: lighter;
         @include media-breakpoint-up(lg) {
@@ -22,7 +24,8 @@
         @include media-breakpoint-down(xs){
             font-size: 29px;
         }
-        color: $amarelo;
+        // color: $amarelo;
+        color: $cinza;
         font-weight: bold;
     }
 }
